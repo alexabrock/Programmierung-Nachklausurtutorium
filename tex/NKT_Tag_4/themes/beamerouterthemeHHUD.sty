@@ -1,0 +1,40 @@
+\ProvidesPackage{beamerouterthemeHHUD} [2019/10/04 v2.1 beamer 'HHUD' outer theme]
+
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+\beamer@compresstrue
+
+\mode<presentation>
+
+\defbeamertemplate*{headline}{HHUD theme}
+{
+  \vskip9.3pt
+  \hskip0.183\paperwidth
+  \textcolor{hhuUniBlau}{\insertsectionnavigationhorizontal{0.772\paperwidth}{}{} }
+  \vskip16pt
+}
+
+\defbeamertemplate*{footline}{HHUD theme}
+{
+  \hskip12pt
+  \textcolor{hhuUniWeiss}{\bf \insertframenumber{} / \inserttotalframenumber{}}\hspace*{10pt}
+  \vskip3.2pt
+}
+
+\defbeamertemplate*{navigation symbols}{HHUD theme}
+{%
+%   \hbox{%
+%     \hbox{\insertslidenavigationsymbol}
+%     \hbox{\insertframenavigationsymbol}
+%     \hbox{\insertsubsectionnavigationsymbol}
+%     \hbox{\insertsectionnavigationsymbol}
+%     \hbox{\insertdocnavigationsymbol}
+%     \hbox{\insertbackfindforwardnavigationsymbol}%
+%   }%
+}
+
+\beamer@leftmargin=1.00cm
+\beamer@rightmargin=1.00cm
+
+\mode
+<all>
