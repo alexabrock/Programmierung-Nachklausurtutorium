@@ -1,0 +1,79 @@
+\section{Generics}
+\lstset{ % Allgemeine Einstellungen für alle Codeblöcke
+    language=C,% Sprache für Syntax-Highlighting
+    basicstyle=\ttfamily, % Grundlegender Schriftstil
+    keywordstyle=\color{blue},     % Farbe der Schlüsselwörter
+    commentstyle=\color{gray},     % Farbe der Kommentare
+    stringstyle=\color{red},       % Farbe der Zeichenketten
+    numbers=left,                  % Zeilennummern links anzeigen
+    numberstyle=\tiny\color{gray}, % Stil der Zeilennummern
+    frame=single,                  % Rahmen um den Code
+    breaklines=true,               % Automatischer Zeilenumbruch
+    captionpos=b, % Bildunterschrift unterhalb des Codes
+}
+
+\subsection{super}
+
+\begin{frame}[fragile] %fragile tag benötigt, da code Listings auftreten
+\frametitle{Generics}
+Problem:
+\begin{itemize}
+    \item  Wenn wir eigene Datenstruktur nun mit neuer eigener Klasse verwenden wollen müssen wir unsere Datenstruktur erneut implementieren. 
+    \item
+    \begin{lstlisting}
+    public IntList list = new IntList();
+    list.add(new Person("Superman"));        //funktioniert nicht
+    \end{lstlisting}
+\end{itemize}
+Lösung:
+\begin{itemize}
+    \item wir machen aus den festen Datentypen Variablen
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Generics}
+\begin{lstlisting}
+    public class LinkedList<T>{
+        private class Node{
+            private T element;
+            private Node next;
+            private Node(T element, Node next){
+                this.element = element;
+                this.next = next;
+            }
+        } 
+    }
+\end{lstlisting}
+Wir ändern den festen Datentypen nur auf T. Damit wird dieser variabel. Gleiches machen wir bei allen Methoden
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Generics - Verwendung}
+    Unsere Generische Liste können wir nun mit allen Datentypen verwenden, die wir benutzen wollen:
+    \begin{lstlisting}
+        LinkedList<String> stringList = new LinkedList<String>();
+        LinkedList<Person> personList = new LinkedList<Person>();
+    \end{lstlisting}
+    Achtung: primitive Datentypen können wir \textbf{nicht} als Generic verwenden:
+    \begin{lstlisting}
+        LinkedList<int> intList = new LinkedList<int>();
+    \end{lstlisting}
+    Jedoch existiert die Wrapper Klasse Integer. Folgendes funktioniert also:
+    \begin{lstlisting}
+        LinkedList<Integer> intList = new LinkedList<Integer>();
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Beispielaufgabe}
+\begin{enumerate}
+    \item Schreiben Sie eine Klasse \textit{Stack}, die einen \textit{int Stack} als Datenstruktur implementiert
+    \item implementieren Sie \textit{push}
+    \item implementieren Sie \textit{pop}
+    \item implementieren Sie \textit{peek}
+    \item implementieren Sie \textit{isEmpty}
+    \item implementieren Sie \textit{size}
+    \item ändern Sie ihre Klasse so, dass diese generisch funktioniert
+\end{enumerate}
+\end{frame}
