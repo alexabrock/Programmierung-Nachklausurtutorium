@@ -37,8 +37,9 @@ Jeden Tag von Montag den 09.03.2026 bis Freitag den 13.03.2026 von 10:30 bis 14:
 
 # Altklausuren
 
-Indiesem Repo gibt es alle Altklausuren ab 2021. Weitere findet ihr auf der Seite der Fachschaft: <https://fscs.hhu.de/de/klausurarchiv/>
-Ab 2021 gibt es Lösungsvideos für viele der Altklausuren in unserer Mediathek:
+In diesem Repo gibt es alle Altklausuren ab 2021. Weitere findet ihr auf der Seite der Fachschaft: <https://fscs.hhu.de/de/klausurarchiv/>
+
+Für fast alle Altklausuren ab 2021 gibt es in der Mediathek Lösungsvideos:
 
 ## WS 21/22
 
