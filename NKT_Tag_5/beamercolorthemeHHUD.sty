@@ -1,0 +1,52 @@
+\ProvidesPackage{beamercolorthemeHHUD} [2020/03/30 v3.1 beamer 'HHUD' color theme]
+
+\mode<presentation>
+
+% Primärfarben: hhuBlau (Akzente, kleine Flächen)
+%               schwarz (Fließtext)
+% Sekundärfarben: 
+%               Grün, Orange, Rot, Tuerkis, hhuDunkelBlau
+%                  -> Grafiken, Diagramme, Akzentfarben
+%               Eisblau: zusätzlich Schmuckornamente
+
+\definecolor{hhuBlau}{RGB}{0,106,179}
+%\definecolor{hhuUniGrau}{RGB}{217,218,219} gibts nicht mehr
+\definecolor{hhuGruen}{RGB}{140,177,16}
+\definecolor{hhuRot}{RGB}{190,10,38}
+\definecolor{hhuOrange}{RGB}{238,127,0}
+\definecolor{hhuTuerkis}{RGB}{87,186,177}
+\definecolor{hhuDunkelblau}{RGB}{0,57,100}
+\definecolor{hhuEisblau}{RGB}{181,203,214}
+\definecolor{hhuSchwarz}{RGB}{0,0,0}
+\definecolor{hhuWeiss}{RGB}{255,255,255}
+
+%  Textfarben
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{alerted text}{fg=hhuRot}
+\setbeamercolor{example text}{fg=hhuGruen}
+\setbeamercolor{structure}{fg=hhuBlau}
+
+\setbeamercolor{block title}{use=structure,fg=structure.fg,bg=structure.fg!30}
+\setbeamercolor{block title alerted}{use=alerted text,fg=alerted text.fg,bg=alerted text.fg!30}
+\setbeamercolor{block title example}{use=example text,fg=example text.fg,bg=example text.fg!30}
+
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.fg!10}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.fg!10}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.fg!10}
+
+%% Derzeit nicht genutzt
+\setbeamercolor{navigation symbols}{use=structure,fg=structure.fg}
+\setbeamercolor{navigation symbols dimmed}{use=structure,fg=structure.fg!50!bg}
+
+\setbeamercolor{separation line}{fg=hhuEisblau}
+
+\setbeamercolor{upper separation line head}{parent=separation line}
+\setbeamercolor{middle separation line head}{parent=separation line}
+\setbeamercolor{lower separation line head}{parent=separation line}
+
+\setbeamercolor{upper separation line foot}{parent=separation line}
+\setbeamercolor{middle separation line foot}{parent=separation line}
+\setbeamercolor{lower separation line foot}{parent=separation line}
+
+\mode
+<all>
