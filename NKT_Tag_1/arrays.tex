@@ -1,0 +1,140 @@
+\section{Arrays und Standardeingabe}
+
+\subsection{Arrays}
+\begin{frame}[fragile]
+\frametitle{Arrays}
+Was ist ein Array?
+\begin{itemize}
+    \item speichert eine genaue Anzahl an Variablen desselben Datentypes
+    \item hat eine feste Größe (nicht dynamisch erweiterbar)
+    \item nicht initialiserte Felder kriegen einen Standardwert oder null zugewiesen
+    \item indices für schnellen Zugriff
+    \item wird von Java wie ein Objekt behandelt $\rightarrow$ liegt auf dem Heap
+\end{itemize}
+\begin{lstlisting}
+    int[] myArray = new int[5];
+    int[] mySecondArray = {1,2,3,4,5};
+\end{lstlisting}
+\end{frame}
+\subsection{Main Method}
+\begin{frame}[fragile]
+\frametitle{Main Method}
+Die Main Method hat als Parameter ein \textit{String} Array.\footnote{Achtung! Das args Array ist NICHT die Standardeingabe} Der Inhalt des Arrays muss beim Aufruf des Programmes mit übergeben werden.
+\begin{lstlisting}
+    public static void main (String[] args){
+        String msg = args[0];
+    }
+\end{lstlisting}
+Arrays haben Indices. Von 0 bis n-1.\footnote{wenn n die Länge des Arrays ist}
+Wie können wir nun durch ein Array iterieren?
+\begin{lstlisting}
+    public static void main (String[] args){
+        for(int i = 0; i < args.length; i++){
+            System.out.println(args[i]);
+        }
+    }
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Beispiel Aufgabe}
+Schreiben Sie ein Programm, welches einen Wert n entgegen nimmt und eine Treppe mit Sternen ausgibt. In der M-ten Iteration sollen genau M Sterne in der Zeile ausgegeben werden. Es soll n Iterationen geben. Für n = 4:
+\begin{lstlisting}
+    *
+    **
+    ***
+    ****
+\end{lstlisting}
+\end{frame}
+\subsection{Standarteingabe}
+\begin{frame}[fragile]
+\frametitle{Standardeingabe}
+Wir können auch die Standardeingabe benutzen, um unser Programm mit Daten aufzurufen.
+Dafür benötigen wir Scanner:
+\begin{lstlisting}
+ import java.util.Scanner;
+ public class Wuerfel {
+    public static void main(String[] args) {
+        Scanner stdin = new Scanner(System.in);
+        while(stdin.hasNext()){
+            int number = Integer.parseInt(stdin.nextLine());
+            while(number > 0){
+                for(int i = 0; i < number; i++){
+                    System.out.print("*");
+                }
+                number--;
+                System.out.println();
+\end{lstlisting}    
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Scanner \& Dateien}
+Wir können Scanner aber auch auf spezifische Dateien setzen. Dafür brauchen wir jedoch den Dateipfad.
+\begin{lstlisting}
+    Scanner scanner = new Scanner(dateipfad);
+\end{lstlisting}
+Achtung! Wenn an diesem Pfad keine Datei liegt, wird unser Programm abstürzen. Wir sollten deshalb einen \textit{try-catch} Block benutzen:
+\begin{lstlisting}
+    try{
+        Scanner scanner = new Scanner("/NKT/wichtigeDatei.txt");
+    } catch(Exception e){
+        e.printStacktrace();
+    }
+\end{lstlisting}
+\end{frame}
+\section{Mini-Game}
+\begin{frame}[fragile]
+\frametitle{Mini-Game}
+Entwerfen Sie eine kleines Mini-Game. Sie sollen über die Standardeingabe mit dem Spiel interagieren können. 
+\begin{enumerate}
+    \item Ihr Spieler hat beispielsweise ein Inventar mit 3*9 Slots. Dieses wird ausgeben wenn Sie bspw \textit{inventory} in die Konsole schreiben
+    \item Implementieren Sie, dass die Gegenstände in das Inventar schreiben können (\textit{add})
+    \item Implementieren sie eine Methode \textit{find} <Item>, die ausgibt, an welchem Platz ein Item im Inventar liegt. (Achten Sie darauf, dass nur ein Index gefunden werden kann, wenn der Gegenstand auch wirklich im Inventar liegt)
+\end{enumerate}  
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Mini Game}
+Beispielaufrufe:
+\begin{lstlisting}
+    $ inventory
+    [Schwert][][][][][Helm][][][]
+    [][][Bogen][][][][][][Trank]
+    [][Holz][][][][][Relikt][][]
+    $ add Stein 2
+    Stein wurde an index 2 hinzugefuegt!
+    $ inventory
+    [Schwert][][Stein][][][Helm][][][]
+    [][][Bogen][][][][][][Trank]
+    [][Holz][][][][][Relikt][][]
+    $ find Helm
+    Ein Helm befindet sich an index 5!
+\end{lstlisting}    
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Beispielaufgabe}
+Für Schnelle: 
+Werden Sie kreativ und überlegen Sie sich Erweiterungen. Ein paar Denkanstöße:
+\begin{itemize}
+    \item der Spieler könnte ein Level haben
+    \item Stats (HP, Stamina, etc)
+    \item lasse den Spieler Heiltränke nutzen
+    \item der Spieler kann erkunden gehen und gegen Gegner kämpfen
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Beispielaufrufe}
+\begin{lstlisting}
+    $ status
+    Level: 1
+    HP: 100
+    Stamina: 50
+    $ explore
+    Du findest einen Heiltrank!
+    $ add Heiltrank 10
+    Heiltrank wurde an Slot 10 hinzugefuegt!
+    $ use Heiltrank
+    Du hast einen Heiltrank benutzt und 20 HP wiederhergestellt!
+    $ attack
+    Du greifst den Goblin an und verursachst 15 Schaden!
+    Der Goblin greift dich an und verursacht 10 Schaden!
+\end{lstlisting}  
+\end{frame}
