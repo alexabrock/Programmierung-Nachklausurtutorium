@@ -1,0 +1,49 @@
+\section{Ergebnispräsentation}
+
+\begin{frame}
+  \frametitle{Grafiken}
+  Grafiken werden wie gewohnt eingebunden (nur ohne \texttt{figure}-Umgebung):
+  \begin{center}
+	    \includegraphics[width=0.5\textwidth]{example-image-a}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Grafiken mit Beschriftung}
+Oder alternativ mit \texttt{figure}-Umgebung:
+\begin{figure}
+\includegraphics[width=0.4\textwidth]{example-image-b}
+\caption{Ein Beispielbild}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Quellenangaben}
+Falls es relevant ist, kann man eine Literatur-Quelle~\footfullcite{Krauthoff2017a} auf den Folien angeben.
+
+Dabei ist es praktisch, wenn die komplette Zitationsangaben auf der Folie selbst steht, ansonsten muss das Publikum bis zum Ende warten, um die Quellennummer aufzulösen.
+\end{frame}
+
+\begin{frame}[fragile]{Code} % verbatim-Umgebungen sind fragil!
+    Code ist bei den meisten Arbeiten nicht notwendig. Eine 0815-Implementierung einer Funktionalität interessiert nicht. Für schlaue Algorithmen sind Flussdiagramme oder Beispiele oft sinnvoller als konkreter Code.
+    
+    Wenn der Code selbst aber von Interesse ist, z.\,B. weil eine bestimmte Programmiertechnik oder eine Programmiersprache vorgestellt werden, sind Codeblöcke sinnvoll.
+    
+\begin{minted}{python}
+def foo(x: int) -> int:
+    return x ** x
+\end{minted}
+
+\inputminted[linenos=true]{java}{example.java}
+
+\begin{lstlisting}[language=python]
+def foo(x: int) -> int:
+    return x ** x
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}{Notizen}
+  Notizen können mit \texttt{note} hinzugefügt werden. Diese werden gerendert, wenn in \texttt{master.tex} die Zeile mit \texttt{show notes on second screen} aktiviert wird.
+  
+  Zum Präsentieren mit Notizen eigenen sich spezielle Programme wie PDF Presenter Console (pdfpc).
+  
+  \note{Notizen}
+\end{frame}
