@@ -14,7 +14,8 @@
 
 ## 🟦 Tag 1
 - [ ] Methoden an dem Tag erklären, nicht an Tag 2  
-- [ ] kompilieren und ausführen (`java Programmname.java`)  
+- [ ] kompilieren und ausführen (`java Programmname.java`)
+- [ ] Pipelining minimal zeigen
 - [ ] Idiomatisch Folien von Sven klauen und mit Folie 12 austauschen  
 - [ ] Folie 13: besseres Array-Beispiel, eins für mehrdimensionale  
 - [ ] Folie 16 und 17 an einen Tag schieben, an dem Klassen schon fertig definiert wurden  
@@ -34,32 +35,37 @@
 - [ ] Klausurnahes Klassenbeispiel  
 - [ ] Interfaces zu Klassen schmeißen  
   - [ ] Interfaces sind abstrakt → rausschmeißen  
-- [ ] Vererbung einfügen – declared type und actual type?  
+- [ ] Vererbung einfügen (Woche 6) – declared type und actual type?  
 - [ ] Folie 7: Mini-Aufgabe Erweiterung von Tag 1 raus  
 - [ ] Folie 8: Die Folie ist Quatsch, Klassen besser einführen  
   - [ ] Klassen haben Attribute, Methoden usw.  
 - [ ] Folie 13: danach Folie `equals` vs `==` ergänzen  
 - [ ] Folie 18:  
   - [ ] bei Test-Objekt noch ergänzen, dass das auf dem Heap liegt  
-  - [ ] und auf dem Stack die Referenz dafür (Grafik ergänzen)  
+  - [ ] und auf dem Stack die Referenz dafür (Grafik ergänzen)
+- [ ]  Shallow vs Deep Copy auf Arrays
 - [ ] Folie 27: Rekursionsaufgabenstellung erweitern  
-- [ ] Exceptions aus Tag 3 in Tag 2 überführen  
+- [ ] Exceptions aus Tag 3 in Tag 2 überführen
+- [ ] Records & enums
 
 ---
 
 ## 🟨 Tag 3
-- [ ] Streams nach Listen  
-  - [ ] hier auch Methodenreferenzen, Lambda-Ausdruck  
-  - [ ] explizit sagen: das geht auch auf Listen, nicht nur auf Streams  
-- [ ] Listen vor dem Rest  
-- [ ] Binäre Suche mit einem schöneren GIF / Video / Bild erklären  
+- [ ] Streams nach Listen
+  - [ ] hier auch Methodenreferenzen, Lambda-Ausdruck , funktionales interface
+  - [ ] explizit sagen: das geht auch auf Listen, nicht nur auf Streams
+- [ ]  Übersicht von Collections
+- [ ] Listen vor dem Rest Bilder aus Folien Klauen (Woche 7)
+- [ ] Bei Listen auch Generics ergänzen
+- [ ] Binäre Suche mit einem schöneren GIF / Video / Bild erklären  (In woche 10 binäre Suchbäume klauen)
 - [ ] Binäre-Suche-Aufgaben ändern  
-- [ ] Folie 13: Sind Sortierverfahren aktuell?  
+- [ ] Folie 13: Nur Insertionsort & Mergesort 
   - [ ] bei den ganzen Sortierverfahren auch schönere Bilder  
   - [ ] bei MergeSort süß interaktiv mit den Studis durchspielen  
 - [ ] Listen erklären (Folie 18 überarbeiten)  
   - [ ] Listen-Überschrift nicht „Linked List“, sondern „Listen“  
-  - [ ] Beispielaufgaben sind gut  
+  - [ ] Beispielaufgaben sind gut
+  - [ ] Listentypen, und wofür sind welche gut 
 
 ---
 
@@ -87,7 +93,7 @@
   - [ ] Array zum Speichern der Einträge  
   - [ ] Array-Platz `null` = leer (oder so, jedenfalls irgendwie gekennzeichnet)  
   - [ ] Array-Index für einen Eintrag ergibt sich aus dessen Hashcode  
-  - [ ] Klassen definieren selbst `hashCode` (oder erben Standardimplementierung)  
+  - [ ] Klassen definieren selbst `hashCode` (oder erben Standardimplementierung)  (hashCode ist Methode die Hashfunktion definiert) 
 - [ ] Aufgaben 2–4 sind Quatsch, raus damit (Folie 12–14)  
 
 ---
