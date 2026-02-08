@@ -1,0 +1,88 @@
+\section{Methoden}
+\lstset{ % Allgemeine Einstellungen für alle Codeblöcke
+    language=C,% Sprache für Syntax-Highlighting
+    basicstyle=\ttfamily, % Grundlegender Schriftstil
+    keywordstyle=\color{blue},     % Farbe der Schlüsselwörter
+    commentstyle=\color{gray},     % Farbe der Kommentare
+    stringstyle=\color{red},       % Farbe der Zeichenketten
+    numbers=left,                  % Zeilennummern links anzeigen
+    numberstyle=\tiny\color{gray}, % Stil der Zeilennummern
+    frame=single,                  % Rahmen um den Code
+    breaklines=true,               % Automatischer Zeilenumbruch
+    captionpos=b, % Bildunterschrift unterhalb des Codes
+}
+
+\subsection{Methoden}
+
+\begin{frame}[fragile] %fragile tag benötigt, da code Listings auftreten
+\frametitle{Methoden}
+Warum überhaupt Methoden?
+\begin{itemize}
+    \item einfacher um sinnvolle Struktur zu erhalten
+    \item Code wird wiederverwendbar
+    \item wir können einfach spezifische Schnittstellen freigeben
+\end{itemize}
+Beispiel für eine Methode:
+\begin{lstlisting}
+    public static int sum(int a, int b){
+        int result = a + b;
+        return result;
+    }
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Methoden Aufbau: Kopf}
+Eine Methode besteht aus Methodenkopf und Methodenrumpf
+Der Methodenkopf ist wiefolgt aufgebaut:
+\begin{lstlisting}
+  //1.     2.     3.  4.  5. 
+    public static int sum(int a, int b){
+        int result = a + b;
+        return result;
+    }
+\end{lstlisting}
+\begin{itemize}
+    \item 1. Sichtbarkeit
+    \item 2. Kontext
+    \item 3. Rückgabetyp
+    \item 4. Name
+    \item 5. Parameter
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Methoden Aufbau: Rumpf}
+Der Methodenrumpf beinhaltet die Logik der Methode. Wenn der Rückgabewert nicht void ist, dann muss an jedem Ende der Methode ein return stehen, welches den richtigen Datentypen zurück gibt. Folgendes wird also NICHT kompilieren:
+\begin{lstlisting}
+    public static int isGreater(int a, int b){
+        if(a > b){
+            System.out.println(a);   
+        } else {
+            return b;
+        }
+    }
+\end{lstlisting}
+\end{frame}
+
+\subsection{Methoden Aufrufen}
+\begin{frame}[fragile]
+\frametitle{Methoden Aufrufen}
+Um eine Methode aufzurufen brauchen wir den Namen der Methode und müssen, falls die Methode Parameter benötigt diese in der korrekten Reihenfolge übergeben.
+\begin{lstlisting}
+    int a = 42;
+    int b = 3421
+    int summe = sum(a,b); //Wert der Variable summe = 3463
+\end{lstlisting}
+Hierbei müssen wir aber auch aufpassen, dass wir den Rückgabewert im richtigen Datentypen speichern. Folgendes funktioniert:
+\begin{lstlisting}
+    Integer summe = sum(a,b);
+\end{lstlisting}\footnote{Warum eigentlich Integer? int $\ne$ Integer. Oder nicht?}
+Funktioniert nicht:
+\begin{lstlisting}
+    String summe = sum(a,b);
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Mini Game Aufgabe}
+Falls Sie es noch nicht gemacht haben spalten sie ihr Mini Game in sinnvolle Methoden auf. Achten Sie darauf Aussagekräftige Namen zu benutzen. 
+\end{frame}
