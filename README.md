@@ -55,8 +55,16 @@ Nachklausur: <https://mediathek.hhu.de/watch/51c38dcc-99d5-4a90-a858-893b82320f8
 ## WS 23/24
 
 Probeklausur: <https://mediathek.hhu.de/watch/1f06e497-3085-4cee-a066-b0e1e98e5153>
+Hauptklausur:
+Nachklausur:
 
 ### WS 24/25
 
 Probeklausur 1: <https://media.hhu.de/video/lsungsvorschlag-probeklausur-1-progra-ws-2425/fa567cb7e669318b171bd823ef43c053>  
 Probeklausur 2: <https://media.hhu.de/video/lsungsvorschlag-probeklausur-2-progra-ws-2425/0bb46f578ba9e7fdcb6a96746de62e7e>
+Hauptklausur:
+Nachklausur:
+
+### WS 25/26
+
+Probeklausur: <https://media.hhu.de/video/progra-2526-lsungsvorschlag-probeklausur/f6a4402f78b0b4c49a83706ac98365cc>
