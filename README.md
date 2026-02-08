@@ -34,3 +34,20 @@ Jeden Tag von Montag den 09.03.2026 bis Freitag den 13.03.2026 von 10:30 bis 14:
   - Higher Order Functions
   - Stream-API
 - **Kapitel 6: Klausurtraining mit Altklausuren**
+
+- Progra Altklausur Lösungsvideos
+Ab 2021 gibt es Lösungsvideos für viele der Altklausuren in unserer Mediathek:
+WS 21/22
+Probeklausur: https://mediathek.hhu.de/watch/d31df892-8ce9-40f4-a5a4-8bb8793c9992  
+Hauptklausur: https://mediathek.hhu.de/watch/93e69a72-ed39-4615-b926-ec7b2b574ee6  
+Nachklausur: https://mediathek.hhu.de/watch/2d12d381-88da-49fd-b66d-edc054447226
+WS 22/23
+Probeklausur 1: https://mediathek.hhu.de/watch/14247289-b704-481b-abca-e38a60614a1d  
+Probeklausur 2: https://mediathek.hhu.de/watch/6aae6e89-e03a-4587-9940-18a53032d9fc  
+Hauptklausur: https://mediathek.hhu.de/watch/a48a6678-6885-4f14-9e92-be7057b003c0  
+Nachklausur: https://mediathek.hhu.de/watch/51c38dcc-99d5-4a90-a858-893b82320f8c
+WS 23/24
+Probeklausur: https://mediathek.hhu.de/watch/1f06e497-3085-4cee-a066-b0e1e98e5153
+WS 24/25
+Probeklausur 1: https://media.hhu.de/video/lsungsvorschlag-probeklausur-1-progra-ws-2425/fa567cb7e669318b171bd823ef43c053  
+Probeklausur 2: https://media.hhu.de/video/lsungsvorschlag-probeklausur-2-progra-ws-2425/0bb46f578ba9e7fdcb6a96746de62e7e
