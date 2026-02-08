@@ -1,0 +1,90 @@
+\section{Interfaces}
+\lstset{ % Allgemeine Einstellungen für alle Codeblöcke
+    language=C,% Sprache für Syntax-Highlighting
+    basicstyle=\ttfamily, % Grundlegender Schriftstil
+    keywordstyle=\color{blue},     % Farbe der Schlüsselwörter
+    commentstyle=\color{gray},     % Farbe der Kommentare
+    stringstyle=\color{red},       % Farbe der Zeichenketten
+    numbers=left,                  % Zeilennummern links anzeigen
+    numberstyle=\tiny\color{gray}, % Stil der Zeilennummern
+    frame=single,                  % Rahmen um den Code
+    breaklines=true,               % Automatischer Zeilenumbruch
+    captionpos=b, % Bildunterschrift unterhalb des Codes
+}
+
+\subsection{Interfaces}
+
+\begin{frame}[fragile] %fragile tag benötigt, da code Listings auftreten
+\frametitle{Interfaces}
+Was sind Interfaces?
+\begin{itemize}
+    \item können von Klassen implementiert werden
+    \item schreiben Klassen vor, welche Methoden sie besitzen müssen
+    \item sind selber Abstrakt
+    \item eine Klasse kann beliebig viele Interfaces implementieren
+    \item ein Objekt A, welches ein Interface B implementiert, ist eine Instanz von A, sowie auch von B
+\end{itemize}
+Beispiel für ein Interface:
+\begin{lstlisting}
+    public interface Sortable{
+        public double weight();
+    }
+\end{lstlisting}\footnote{\textit{public} ist in Methoden, die von einem Interface vorgeschrieben werden nicht nötig}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Interface implementieren}
+Wie implementiert man ein Interface?
+\begin{lstlisting}
+    public class Item implements Sortable{
+        //inhalt der Klasse
+    }
+\end{lstlisting}
+Nun muss die Klasse Item eine Methode \textit{weight()} implementieren, die einen \textit{double} zurück gibt.
+\newline
+Wir schreiben nun also vor, dass jedes Objekt, welches eine Instanz von Sortable ist, eine bestimmte Logik hat
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Interface Klasse A}
+\begin{lstlisting}
+    public class Schwert implements Sortable{
+        String name;
+        public static final double WEIGHT = 7;
+        public Schwert(String name){
+            this.name = name;
+        }
+        public double weight(){
+            return WEIGHT;
+        }
+    }
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Interface Klasse B}
+\begin{lstlisting}
+    public class Heiltrank implements Sortable {
+        public String name;
+        public int count;
+        public static final double WEIGHT = 2.5;
+        public Heiltrank(String name, int count){
+            this.name = name;
+            this.count = count;
+        }
+        public double weight(){
+            return count * WEIGHT;
+        }
+    }
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Interfaces}
+Da Objekte der Klasse A, wie auch Objekte der Klasse B ebenfalls Instanzen von \textit{Sortable} sind können wir diese nun auch so speichern. Wir können also ein Array von \textit{Sortable} Objekten anlegen, und deshalb darauf vertrauen, dass jedes Objekt die Methode \textit{weight()} implementiert.
+\begin{lstlisting}
+    Sortable[] inventory = new Sortable[3*9];
+    inventory[0] = (Sortable) new Schwert("Excalibur");
+\end{lstlisting}
+Wobei hilft uns das noch?
+\end{frame}
