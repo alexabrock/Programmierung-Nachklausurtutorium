@@ -1,0 +1,48 @@
+\ProvidesPackage{beamerouterthemeHHUD} [2020/02/30 v3.1 beamer 'HHUD' outer theme]
+
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+\beamer@compresstrue
+
+\mode<presentation>
+
+\defbeamertemplate*{headline}{HHUD theme}
+{
+  \vskip.68cm 
+  %%%% nicht genutzt derzeit:
+  %\vskip9.3pt
+  %\hskip0.183\paperwidth
+  %\textcolor{hhuBlau}{\insertsectionnavigationhorizontal{0.772\paperwidth}{}{} }
+  %\vskip16pt
+  %%%% Ende nicht genutzt
+}
+
+\defbeamertemplate*{footline}{HHUD theme}
+{
+  \hskip12pt
+  \textcolor{hhuWeiss}{\bf \insertframenumber{}\hspace*{14cm} hhu.de} %/\inserttotalframenumber breaks with appendixnumberbeamer package
+  \vskip3.2pt
+}
+
+\setbeamertemplate{frametitle}{\color{hhuBlau}\insertframetitle\par \vspace*{.5cm} \insertframesubtitle}
+
+%%%%%%%% nicht mehr genutzt
+%\beamer@leftmargin=1.00cm
+%\beamer@rightmargin=1.00cm
+
+\defbeamertemplate*{navigation symbols}{HHUD theme}
+{%
+%   \hbox{%
+%     \hbox{\insertslidenavigationsymbol}
+%     \hbox{\insertframenavigationsymbol}
+%     \hbox{\insertsubsectionnavigationsymbol}
+%     \hbox{\insertsectionnavigationsymbol}
+%     \hbox{\insertdocnavigationsymbol}
+%     \hbox{\insertbackfindforwardnavigationsymbol}%
+%   }%
+}
+
+%%%%%%%% end enicht mehr genutzt
+
+\mode
+<all>
