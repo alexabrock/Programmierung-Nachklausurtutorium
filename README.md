@@ -55,15 +55,15 @@ Nachklausur: <https://mediathek.hhu.de/watch/51c38dcc-99d5-4a90-a858-893b82320f8
 ## WS 23/24
 
 Probeklausur: <https://mediathek.hhu.de/watch/1f06e497-3085-4cee-a066-b0e1e98e5153>
-Hauptklausur: <https://media.hhu.de/video/progra-ws-2324-lsungsvorschlag-1-klausur/245ff8983a03f5baeefb14ae61f6692b>
-Nachklausur: <https://media.hhu.de/video/progra-ws-2324-lsungsvorschlag-2-klausur/5c354efd51204068d12567823cc1f0d5>
+Hauptklausur: <https://media.hhu.de/video/progra-ws-2324-lsungsvorschlag-1-klausur/245ff8983a03f5baeefb14ae61f6692b>  
+Nachklausur: <https://media.hhu.de/video/progra-ws-2324-lsungsvorschlag-2-klausur/5c354efd51204068d12567823cc1f0d5>  
 
 ### WS 24/25
 
-Probeklausur 1: <https://media.hhu.de/video/lsungsvorschlag-probeklausur-1-progra-ws-2425/fa567cb7e669318b171bd823ef43c053>  
-Probeklausur 2: <https://media.hhu.de/video/lsungsvorschlag-probeklausur-2-progra-ws-2425/0bb46f578ba9e7fdcb6a96746de62e7e>
-Hauptklausur: <https://media.hhu.de/video/progra-ws-2425-lsungsvorschlag-1-klausur/115f8e5bb2e1ebd9e147d66a5ef25f5e>
-Nachklausur: <https://media.hhu.de/video/progra-ws-2425-lsungsvorschlag-2-klausur/220569137b7781e51b8a8522d69c8c02>
+Probeklausur 1: <https://media.hhu.de/video/lsungsvorschlag-probeklausur-1-progra-ws-2425/fa567cb7e669318b171bd823ef43c053>    
+Probeklausur 2: <https://media.hhu.de/video/lsungsvorschlag-probeklausur-2-progra-ws-2425/0bb46f578ba9e7fdcb6a96746de62e7e>  
+Hauptklausur: <https://media.hhu.de/video/progra-ws-2425-lsungsvorschlag-1-klausur/115f8e5bb2e1ebd9e147d66a5ef25f5e>  
+Nachklausur: <https://media.hhu.de/video/progra-ws-2425-lsungsvorschlag-2-klausur/220569137b7781e51b8a8522d69c8c02>  
 
 ### WS 25/26
 
