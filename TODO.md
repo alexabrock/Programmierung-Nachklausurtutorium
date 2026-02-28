@@ -26,8 +26,7 @@
 - [ ] Interfaces zu Klassen schmeißen  
   - [ ] Interfaces sind abstrakt → rausschmeißen  
 - [ ] Vererbung einfügen  
-
-### entfernt:
+entfernt:
 - [ ] Pipelining minimal zeigen) //war nt in HK oder PK
 ---
 
