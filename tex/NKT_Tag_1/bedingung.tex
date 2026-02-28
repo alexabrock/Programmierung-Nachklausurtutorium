@@ -54,6 +54,81 @@
 \end{itemize}
 \end{frame}
 
+\subsection{Idiomatisch}
+
+\begin{frame}[fragile]
+\frametitle{Idiomatische Schleifen auswählen}
+\begin{itemize}
+    \item For Loop -> falls wir den index benutzen
+    \item Enhanced For Loop -> falls eine Datenstruktur komplett durchgegangen werden soll
+    \item While Loop -> falls wir nicht wissen wie häufig wir etwas wiederholen müssen bspw. lesen einer Eingabe
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Idiomatisch?}
+\begin{itemize}
+    \item Ist folgender Code idiomatisch?
+\end{itemize}
+\begin{lstlisting}
+public static void printList(List<Integer> list) {
+    for (int i = 0; i < list.size(); i++) {
+        System.out.print(list.get(i) + " ");
+    }
+    System.out.println();
+  }
+\end{lstlisting}
+
+\begin{itemize}
+    \item Sollten wir diesen ändern?
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Idiomatisch?}
+\begin{itemize}
+    \item Ist folgender Code idiomatisch?
+\end{itemize}
+\begin{lstlisting}
+    public static int sumArray(List<Integer> list) {
+        int count = 0;
+        int summe = 0;
+        while (count < list.size()) {
+            summe += list.get(count);
+            count++;
+        }
+        return summe;
+  }
+\end{lstlisting}
+
+\begin{itemize}
+    \item Sollten wir diesen ändern?
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Idiomatisch?}
+\begin{itemize}
+    \item Ist folgender Code idiomatisch?
+\end{itemize}
+\begin{lstlisting}
+    public static boolean contains(List<String> list, String toFind) {
+        boolean gefunden = false;
+        for (String element : list) {
+            if (element.equals(toFind)) {
+                gefunden = true;
+                break;
+            }
+        }
+        return gefunden;
+ }
+\end{lstlisting}
+
+\begin{itemize}
+    \item Sollten wir diesen ändern?
+\end{itemize}
+\end{frame}
+
 \subsection{Logische Operatoren}
 \begin{frame}[fragile]
 \frametitle{Logische Operatoren}
@@ -74,18 +149,3 @@ Logische Operatoren werden in Schleifenköpfen benötigt. Die Bedingung dafür, 
 \end{lstlisting}
 \end{frame}
 
-\subsection{Idiomatisch}
-\begin{frame}[fragile]
-\frametitle{Idiomatisch}
-For Schleife $\Leftrightarrow$ While Schleife
-\newline
-Wenn wir ein Array mit einer \textit{while} Schleife ausgeben wollen geht dies auch: 
-\begin{lstlisting}
-    int count = 0;
-    while(count <= array.length){
-        System.out.println(array[count]);
-        count++;
-    }
-\end{lstlisting}
-Eine \textit{for} Schleife ist hier jedoch deutlich sinnvoller
-\end{frame}

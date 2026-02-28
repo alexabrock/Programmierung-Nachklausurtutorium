@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.7)  1 MAR 2026 00:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.7)  1 MAR 2026 00:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1421,7 +1421,7 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 55.
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 75.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 66.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [14
 
@@ -1431,9 +1431,39 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 75.
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 91.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 85.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [15
+
+]
+\openout4 = `master.vrb'.
+
+ (master.vrb)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 107.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [16
+
+]
+\openout4 = `master.vrb'.
+
+ (master.vrb)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 130.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [17
+
+]
+\openout4 = `master.vrb'.
+
+ (master.vrb)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 150.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [18
 
 ]) (arrays.tex
 \openout4 = `master.vrb'.
@@ -1443,7 +1473,7 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 18.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [16
+ [19
 
 ]
 \openout4 = `master.vrb'.
@@ -1456,7 +1486,7 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 37.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [17
+ [20
 
 ]
 \openout4 = `master.vrb'.
@@ -1466,7 +1496,7 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 48.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [18
+ [21
 
 ]
 \openout4 = `master.vrb'.
@@ -1479,7 +1509,7 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 68.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
-[19
+[22
 
 ]
 \openout4 = `master.vrb'.
@@ -1489,7 +1519,7 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 83.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [20
+ [23
 
 ]
 \openout4 = `master.vrb'.
@@ -1499,7 +1529,7 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 93.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [21
+ [24
 
 ]
 \openout4 = `master.vrb'.
@@ -1509,7 +1539,7 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 111.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [22
+ [25
 
 ]
 \openout4 = `master.vrb'.
@@ -1519,7 +1549,7 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 122.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [23
+ [26
 
 ]
 \openout4 = `master.vrb'.
@@ -1529,7 +1559,7 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 140.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [24
+ [27
 
 ])
 \tf@nav=\write8
@@ -1541,7 +1571,7 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 140.
 \tf@snm=\write10
 \openout10 = `master.snm'.
 
-runsystem(latexminted cleantemp  --timestamp 20260301001411 EB0A191797624DD3A48FA681D3061212)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20260301004412 EB0A191797624DD3A48FA681D3061212)...disabled (restricted).
 
  (master.aux)
  ***********
@@ -1549,23 +1579,23 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 2510A809C24B67CE978AF45DEF402FC5;1803.
+(rerunfilecheck)             Checksum: 855C7877AF65E8CA224C4D77CF8B7845;1803.
 Package logreq Info: Writing requests to 'master.run.xml'.
 \openout1 = `master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37751 strings out of 467866
- 761944 string characters out of 5418326
- 1722763 words of memory out of 5000000
- 65857 multiletter control sequences out of 15000+600000
+ 37803 strings out of 467866
+ 762721 string characters out of 5418326
+ 1722901 words of memory out of 5000000
+ 65897 multiletter control sequences out of 15000+600000
  683831 words of font info for 103 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  128i,11n,123p,1951b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on master.pdf (24 pages, 150040 bytes).
+Output written on master.pdf (27 pages, 155916 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
+ 283 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
  173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,10 +7,10 @@
 \beamer@subsectionintoc {2}{4}{String Objekt}{10}{0}{2}
 \beamer@sectionintoc {3}{Kontrollstrukturen}{11}{0}{3}
 \beamer@subsectionintoc {3}{1}{Verzweigungen}{11}{0}{3}
-\beamer@subsectionintoc {3}{2}{Logische Operatoren}{14}{0}{3}
-\beamer@subsectionintoc {3}{3}{Idiomatisch}{15}{0}{3}
-\beamer@sectionintoc {4}{Arrays und Standardeingabe}{16}{0}{4}
-\beamer@subsectionintoc {4}{1}{Arrays}{16}{0}{4}
-\beamer@subsectionintoc {4}{2}{Main Method}{17}{0}{4}
-\beamer@subsectionintoc {4}{3}{Standarteingabe}{19}{0}{4}
-\beamer@sectionintoc {5}{Mini-Game}{21}{0}{5}
+\beamer@subsectionintoc {3}{2}{Idiomatisch}{14}{0}{3}
+\beamer@subsectionintoc {3}{3}{Logische Operatoren}{18}{0}{3}
+\beamer@sectionintoc {4}{Arrays und Standardeingabe}{19}{0}{4}
+\beamer@subsectionintoc {4}{1}{Arrays}{19}{0}{4}
+\beamer@subsectionintoc {4}{2}{Main Method}{20}{0}{4}
+\beamer@subsectionintoc {4}{3}{Standarteingabe}{22}{0}{4}
+\beamer@sectionintoc {5}{Mini-Game}{24}{0}{5}

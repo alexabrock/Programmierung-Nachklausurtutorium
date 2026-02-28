@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex master"] 1772320405.19202 "master.aux" "master.bbl" "master" 1772320454.41707 0
+["bibtex master"] 1772322212.63475 "master.aux" "master.bbl" "master" 1772322255.50648 0
   "./lit.bib" 1770555361 717 620d879529c46f611cc74e30f9c66324 ""
-  "./master-blx.bib" 1772320453 342 20d1170ef6c1d70c658d70e011e08dba ""
+  "./master-blx.bib" 1772322254 342 20d1170ef6c1d70c658d70e011e08dba ""
   "C:/Users/diewi/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1752408733 65510 9a2a51799b543ff279b8ea2dd91ec499 ""
-  "master.aux" 1772320453 8102 27287255aeaf5e027708ce8240a3528e "pdflatex"
+  "master.aux" 1772322254 8519 d41faaff99c056956220a3c23d1d36ce "pdflatex"
   (generated)
   "master.bbl"
   "master.blg"
   (rewritten before read)
-["pdflatex"] 1772320451.35248 "c:/Users/diewi/Documents/GitHub/Programmierung-Nachklausurtutorium/tex/NKT_Tag_1/master.tex" "master.pdf" "master" 1772320454.41799 0
+["pdflatex"] 1772322252.4145 "c:/Users/diewi/Documents/GitHub/Programmierung-Nachklausurtutorium/tex/NKT_Tag_1/master.tex" "master.pdf" "master" 1772322255.5074 0
   "C:/Users/diewi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770552109 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/diewi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1770500640 13333861 2bfc117a8852e65bc0f5adb577dcc158 ""
   "C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -267,18 +267,18 @@
   "beamercolorthemeHHUD.sty" 1770555361 2258 f6b62083b8020c6de2bfbcc9253e89ba ""
   "beamerouterthemeHHUD.sty" 1770555361 1330 816e11cb59cbb18038e82839b71c08b0 ""
   "beamerthemeHHUD.sty" 1770555361 334 d639f2cc4b2338c1f12cc220bdac84cf ""
-  "bedingung.tex" 1772319276 2514 ced173dcb84b198859d9a546e2eca0d7 ""
+  "bedingung.tex" 1772322251 3947 0565451e8a162c0b8c94f599760fd1ac ""
   "c:/Users/diewi/Documents/GitHub/Programmierung-Nachklausurtutorium/tex/NKT_Tag_1/master.tex" 1772319641 3472 e9a5798ce0217c4cc425d48b38044aa8 ""
   "fig/background_cd_2020.pdf" 1770555361 13146 352931c08fdde4d60498b7b1bb4faa15 ""
   "fig/background_heine.pdf" 1770555361 4365 d089e9e6305a88a5df9a47067fdd12a4 ""
-  "master.aux" 1772320453 8102 27287255aeaf5e027708ce8240a3528e "pdflatex"
-  "master.bbl" 1772320405 539 9b1193ea42022b65f5e4436756b83bc1 "bibtex master"
-  "master.nav" 1772320453 4697 bac45ca8eca43652424bcdab97ddc943 "pdflatex"
-  "master.out" 1772320453 1803 2510a809c24b67ce978af45def402fc5 "pdflatex"
-  "master.run.xml" 1772320453 2598 dd7ff1b8b2bcb01e9235ea80e77409c6 "pdflatex"
+  "master.aux" 1772322254 8519 d41faaff99c056956220a3c23d1d36ce "pdflatex"
+  "master.bbl" 1772322212 539 9b1193ea42022b65f5e4436756b83bc1 "bibtex master"
+  "master.nav" 1772322254 5006 e93f6a4da71686417bdecdff4e19ab1e "pdflatex"
+  "master.out" 1772322254 1803 855c7877af65e8ca224c4d77cf8b7845 "pdflatex"
+  "master.run.xml" 1772322254 2598 dd7ff1b8b2bcb01e9235ea80e77409c6 "pdflatex"
   "master.tex" 1772319641 3472 e9a5798ce0217c4cc425d48b38044aa8 ""
-  "master.toc" 1772320453 838 1eed343facbe63cb419b842a218ed38b "pdflatex"
-  "master.vrb" 1772320453 445 5fb3e81149a5f35600fa6f7198ee4d29 "pdflatex"
+  "master.toc" 1772322254 838 c882698ef2ef7bbe88d82d1fe5ed956f "pdflatex"
+  "master.vrb" 1772322254 445 5fb3e81149a5f35600fa6f7198ee4d29 "pdflatex"
   "orga.tex" 1772320450 1539 4e59c2d71849626a608f7569f6ab2525 ""
   (generated)
   "master-blx.bib"
