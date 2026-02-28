@@ -33,10 +33,10 @@ Wie müsste die Person Klasse aussehen, damit folgendes funktioniert?
 \begin{frame}[fragile]
 \frametitle{Klassen}
 \begin{lstlisting}
-    public class Person {
+    class Person {
         String name = "Kein Name";
-        public Person(){}
-        public Person(String name){
+        Person(){}
+        Person(String name){
             this.name = name;
         }
         @Override
@@ -52,11 +52,11 @@ Wie müsste die Person Klasse aussehen, damit folgendes funktioniert?
 \frametitle{Methoden Überladen}
 In Java können wir Methoden überladen. Dies haben wir bereits in der Person Klasse getan. Der Konstruktor existiert zwei mal. Einmal als Default Konstruktor und einmal als Konstruktor der einen Namen für die Person entgegen nimmt und diesen Speichert. Überladen ist sehr hilfreich:
 \begin{lstlisting}
-    public int sum(int a, int b) {
+    int sum(int a, int b) {
         return a + b;
     }
 
-    public double sum(double a, double b) {
+    double sum(double a, double b) {
         return a + b;
     }
 \end{lstlisting}

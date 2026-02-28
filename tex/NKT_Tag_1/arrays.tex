@@ -21,14 +21,14 @@ Was ist ein Array?
 \frametitle{Main Method}
 Die Main Method hat als Parameter ein \textit{String} Array.\footnote{Achtung! Das args Array ist NICHT die Standardeingabe} Der Inhalt des Arrays muss beim Aufruf des Programmes mit übergeben werden.
 \begin{lstlisting}
-    public static void main (String[] args){
+    static void main (String[] args){
         String msg = args[0];
     }
 \end{lstlisting}
 Arrays haben Indices. Von 0 bis n-1.\footnote{wenn n die Länge des Arrays ist}
 Wie können wir nun durch ein Array iterieren?
 \begin{lstlisting}
-    public static void main (String[] args){
+    static void main (String[] args){
         for(int i = 0; i < args.length; i++){
             System.out.println(args[i]);
         }
@@ -53,8 +53,8 @@ Wir können auch die Standardeingabe benutzen, um unser Programm mit Daten aufzu
 Dafür benötigen wir Scanner:
 \begin{lstlisting}
  import java.util.Scanner;
- public class Wuerfel {
-    public static void main(String[] args) {
+ class Wuerfel {
+    static void main(String[] args) {
         Scanner stdin = new Scanner(System.in);
         while(stdin.hasNext()){
             int number = Integer.parseInt(stdin.nextLine());

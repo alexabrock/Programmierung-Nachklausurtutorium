@@ -24,7 +24,7 @@ Warum überhaupt Methoden?
 \end{itemize}
 Beispiel für eine Methode:
 \begin{lstlisting}
-    public static int sum(int a, int b){
+     static int sum(int a, int b){
         int result = a + b;
         return result;
     }
@@ -37,7 +37,7 @@ Eine Methode besteht aus Methodenkopf und Methodenrumpf
 Der Methodenkopf ist wiefolgt aufgebaut:
 \begin{lstlisting}
   //1.     2.     3.  4.  5. 
-    public static int sum(int a, int b){
+    static int sum(int a, int b){
         int result = a + b;
         return result;
     }
@@ -54,7 +54,7 @@ Der Methodenkopf ist wiefolgt aufgebaut:
 \frametitle{Methoden Aufbau: Rumpf}
 Der Methodenrumpf beinhaltet die Logik der Methode. Wenn der Rückgabewert nicht void ist, dann muss an jedem Ende der Methode ein return stehen, welches den richtigen Datentypen zurück gibt. Folgendes wird also NICHT kompilieren:
 \begin{lstlisting}
-    public static int isGreater(int a, int b){
+    static int isGreater(int a, int b){
         if(a > b){
             System.out.println(a);   
         } else {

@@ -26,8 +26,8 @@ Was sind Interfaces?
 \end{itemize}
 Beispiel für ein Interface:
 \begin{lstlisting}
-    public interface Sortable{
-        public double weight();
+    interface Sortable{
+        double weight();
     }
 \end{lstlisting}\footnote{\textit{public} ist in Methoden, die von einem Interface vorgeschrieben werden nicht nötig}
 \end{frame}
@@ -48,13 +48,13 @@ Wir schreiben nun also vor, dass jedes Objekt, welches eine Instanz von Sortable
 \begin{frame}[fragile]
 \frametitle{Interface Klasse A}
 \begin{lstlisting}
-    public class Schwert implements Sortable{
+    class Schwert implements Sortable{
         String name;
-        public static final double WEIGHT = 7;
-        public Schwert(String name){
+        static final double WEIGHT = 7;
+        Schwert(String name){
             this.name = name;
         }
-        public double weight(){
+        double weight(){
             return WEIGHT;
         }
     }
@@ -64,15 +64,15 @@ Wir schreiben nun also vor, dass jedes Objekt, welches eine Instanz von Sortable
 \begin{frame}[fragile]
 \frametitle{Interface Klasse B}
 \begin{lstlisting}
-    public class Heiltrank implements Sortable {
-        public String name;
-        public int count;
-        public static final double WEIGHT = 2.5;
-        public Heiltrank(String name, int count){
+    class Heiltrank implements Sortable {
+        String name;
+        int count;
+        static final double WEIGHT = 2.5;
+        Heiltrank(String name, int count){
             this.name = name;
             this.count = count;
         }
-        public double weight(){
+        double weight(){
             return count * WEIGHT;
         }
     }

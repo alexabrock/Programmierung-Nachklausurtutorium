@@ -1,0 +1,8 @@
+\frametitle{Mini-Game}
+    Entwickeln sie ihr Game weiter:
+    \begin{enumerate}
+        \item überlegen Sie sich sinnvolle Interfaces (\textit{useable}, \textit{weapon}, etc.)
+        \item implementieren Sie eine Methode \textit{sort}, die verschiedene Arten für das Sortieren des Inventares bereitstellt (bspw. alphabetisch, nach gewicht, etc.)
+        \item erstellen sie eine Spieler Klasse
+        \item das Spiel verwaltet eine Liste von Spieler Objekten
+    \end{enumerate}

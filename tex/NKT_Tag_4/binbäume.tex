@@ -117,7 +117,7 @@ Teilbaums von 5.
 \begin{frame}[fragile]
 \frametitle{Bäume - Umsetzung}
 \begin{lstlisting}[language=java]
-public class BinarySearchTree {
+class BinarySearchTree {
 
     private class BinaryNode {
     private int element;
@@ -138,7 +138,7 @@ private BinaryNode root;
 \begin{frame}[fragile]
 \frametitle{Bäume - Einfügen}
 \begin{lstlisting}
-public void insert(int newNumber) {
+void insert(int newNumber) {
     // Sonderfall: leerer Baum
     if (root == null) {
         root = new BinaryNode(newNumber);
@@ -174,7 +174,7 @@ public void insert(int newNumber) {
 \begin{frame}[fragile]
 \frametitle{Bäume - Minimum finden}
 \begin{lstlisting}
-public int minimum() {
+int minimum() {
     if(root == null) {
         throw new java.util.NoSuchElementException();
     }

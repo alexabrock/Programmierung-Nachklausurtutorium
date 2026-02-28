@@ -1,24 +1,14 @@
 # Fdb version 4
-["bibtex master"] 1770552118.46875 "master.aux" "master.bbl" "master" 1770552123.11558 0
-  "./lit.bib" 1770551821 700 620d879529c46f611cc74e30f9c66324 ""
-  "./master-blx.bib" 1770552122 342 20d1170ef6c1d70c658d70e011e08dba ""
+["bibtex master"] 1772320405.19202 "master.aux" "master.bbl" "master" 1772320454.41707 0
+  "./lit.bib" 1770555361 717 620d879529c46f611cc74e30f9c66324 ""
+  "./master-blx.bib" 1772320453 342 20d1170ef6c1d70c658d70e011e08dba ""
   "C:/Users/diewi/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1752408733 65510 9a2a51799b543ff279b8ea2dd91ec499 ""
-  "master.aux" 1770552121 7429 216938e5a4357961d780789367b9a40b "pdflatex"
+  "master.aux" 1772320453 8102 27287255aeaf5e027708ce8240a3528e "pdflatex"
   (generated)
   "master.bbl"
   "master.blg"
   (rewritten before read)
-["cusdep svg pdf fig/background_cd_2020"] 0 "fig/background_cd_2020.svg" "fig/background_cd_2020.pdf" "fig/background_cd_2020" 1770552123.11663 -1
-  "fig/background_cd_2020.svg" 1770551821 42768 5daa33b192ebbf49821f993b72981e58 ""
-  (generated)
-  "fig/background_cd_2020.pdf"
-  (rewritten before read)
-["cusdep svg pdf fig/background_heine"] 0 "fig/background_heine.svg" "fig/background_heine.pdf" "fig/background_heine" 1770552123.11645 -1
-  "fig/background_heine.svg" 1770551821 12480 7866dbef5809cac9f58f3f75e89897db ""
-  (generated)
-  "fig/background_heine.pdf"
-  (rewritten before read)
-["pdflatex"] 1770552118.73359 "c:/Users/diewi/Downloads/NKT/NKT_Tag_1/master.tex" "master.pdf" "master" 1770552123.1168 0
+["pdflatex"] 1772320451.35248 "c:/Users/diewi/Documents/GitHub/Programmierung-Nachklausurtutorium/tex/NKT_Tag_1/master.tex" "master.pdf" "master" 1772320454.41799 0
   "C:/Users/diewi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770552109 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/diewi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1770500640 13333861 2bfc117a8852e65bc0f5adb577dcc158 ""
   "C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -271,24 +261,25 @@
   "C:/Users/diewi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/diewi/AppData/Local/Programs/MiKTeX/tex/latex/was/icomma.sty" 1665850770 1018 df058db1896806f044e2233bb506d425 ""
   "C:/Users/diewi/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "appendixnumberbeamer.sty" 1770551821 1164 895fe005bc826750406c7e0c386920f3 ""
-  "arrays.tex" 1770551821 4983 40eca827c4ebca026541ae094c81550d ""
-  "basic.tex" 1770551821 2895 35b7292c357313cf7310d8747ae17835 ""
-  "beamercolorthemeHHUD.sty" 1770551821 2206 f6b62083b8020c6de2bfbcc9253e89ba ""
-  "beamerouterthemeHHUD.sty" 1770551821 1282 816e11cb59cbb18038e82839b71c08b0 ""
-  "beamerthemeHHUD.sty" 1770551821 320 d639f2cc4b2338c1f12cc220bdac84cf ""
-  "bedingung.tex" 1770551821 2424 ced173dcb84b198859d9a546e2eca0d7 ""
-  "c:/Users/diewi/Downloads/NKT/NKT_Tag_1/master.tex" 1770551821 3346 64e457b56173183fa35d06a815de3f83 ""
-  "fig/background_cd_2020.pdf" 1770551821 13146 352931c08fdde4d60498b7b1bb4faa15 "cusdep svg pdf fig/background_cd_2020"
-  "fig/background_heine.pdf" 1770551821 4365 d089e9e6305a88a5df9a47067fdd12a4 "cusdep svg pdf fig/background_heine"
-  "master.aux" 1770552121 7429 216938e5a4357961d780789367b9a40b "pdflatex"
-  "master.bbl" 1770552118 539 9b1193ea42022b65f5e4436756b83bc1 "bibtex master"
-  "master.nav" 1770552122 4255 c72e5b03a723d7e1c81689f7131e835e "pdflatex"
-  "master.out" 1770552121 1697 beca4184b60bd746ce207573ffd7c284 "pdflatex"
-  "master.run.xml" 1770552122 2598 dd7ff1b8b2bcb01e9235ea80e77409c6 "pdflatex"
-  "master.tex" 1770551821 3346 64e457b56173183fa35d06a815de3f83 ""
-  "master.toc" 1770552122 787 75d86c5791682d6bd273da2a00df31c5 "pdflatex"
-  "master.vrb" 1770552121 445 5fb3e81149a5f35600fa6f7198ee4d29 "pdflatex"
+  "appendixnumberbeamer.sty" 1770555361 1201 895fe005bc826750406c7e0c386920f3 ""
+  "arrays.tex" 1772317398 5094 650344f47dbf2a5c79ab151897f876c5 ""
+  "basic.tex" 1770555361 2994 35b7292c357313cf7310d8747ae17835 ""
+  "beamercolorthemeHHUD.sty" 1770555361 2258 f6b62083b8020c6de2bfbcc9253e89ba ""
+  "beamerouterthemeHHUD.sty" 1770555361 1330 816e11cb59cbb18038e82839b71c08b0 ""
+  "beamerthemeHHUD.sty" 1770555361 334 d639f2cc4b2338c1f12cc220bdac84cf ""
+  "bedingung.tex" 1772319276 2514 ced173dcb84b198859d9a546e2eca0d7 ""
+  "c:/Users/diewi/Documents/GitHub/Programmierung-Nachklausurtutorium/tex/NKT_Tag_1/master.tex" 1772319641 3472 e9a5798ce0217c4cc425d48b38044aa8 ""
+  "fig/background_cd_2020.pdf" 1770555361 13146 352931c08fdde4d60498b7b1bb4faa15 ""
+  "fig/background_heine.pdf" 1770555361 4365 d089e9e6305a88a5df9a47067fdd12a4 ""
+  "master.aux" 1772320453 8102 27287255aeaf5e027708ce8240a3528e "pdflatex"
+  "master.bbl" 1772320405 539 9b1193ea42022b65f5e4436756b83bc1 "bibtex master"
+  "master.nav" 1772320453 4697 bac45ca8eca43652424bcdab97ddc943 "pdflatex"
+  "master.out" 1772320453 1803 2510a809c24b67ce978af45def402fc5 "pdflatex"
+  "master.run.xml" 1772320453 2598 dd7ff1b8b2bcb01e9235ea80e77409c6 "pdflatex"
+  "master.tex" 1772319641 3472 e9a5798ce0217c4cc425d48b38044aa8 ""
+  "master.toc" 1772320453 838 1eed343facbe63cb419b842a218ed38b "pdflatex"
+  "master.vrb" 1772320453 445 5fb3e81149a5f35600fa6f7198ee4d29 "pdflatex"
+  "orga.tex" 1772320450 1539 4e59c2d71849626a608f7569f6ab2525 ""
   (generated)
   "master-blx.bib"
   "master.aux"

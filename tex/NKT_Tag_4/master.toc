@@ -1,0 +1,2 @@
+\babel@toc {ngerman}{}\relax 
+\beamer@sectionintoc {1}{Bäume}{3}{0}{1}
