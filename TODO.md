@@ -16,7 +16,7 @@
 ## 🟦 Tag 1
 - [ ] Methoden an dem Tag erklären, nicht an Tag 2  
 - [ ] kompilieren und ausführen (`java Programmname.java`)
-- [ ] Idiomatisch Folien von Sven klauen und mit Folie 12 austauschen  
+- [x] A Idiomatisch Folien von Sven klauen und mit Folie 12 austauschen  
 - [ ] Folie 13: besseres Array-Beispiel, eins für mehrdimensionale  
 - [ ] Folie 16 und 17 an einen Tag schieben, an dem Klassen schon fertig definiert wurden  
 - [ ] Rekursion in Tag 1 schon? (aus Tag 2)  
