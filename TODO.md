@@ -25,7 +25,8 @@
   - [ ] Was sind sinnvolle Sichtbarkeiten (für interne Methoden, Attribute?, externe Methoden, Klassen package-private)  
 - [ ] Interfaces zu Klassen schmeißen  
   - [ ] Interfaces sind abstrakt → rausschmeißen  
-- [ ] Vererbung einfügen  
+- [ ] Vererbung einfügen
+      
 entfernt:
 - [ ] Pipelining minimal zeigen) //war nt in HK oder PK
 ---
