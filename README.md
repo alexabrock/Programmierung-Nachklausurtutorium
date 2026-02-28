@@ -4,18 +4,18 @@ Jeden Tag von Montag den 09.03.2026 bis Freitag den 13.03.2026 von 10:30 bis 14:
 
 - **Inhalte des Nachklausurtutorium**
 - **Kapitel 1: Grundlagen**
-  - Hello World
-  - Fließkommazahlen & Verzweigungen
-  - Booleans & Schleifen
+  - Variabeln & Datentypen
+  - Verzweigungen
+  - Schleifen
   - Methoden
   - Stack, Rekursion
 - **Kapitel 2: Objekte**
   - Arrays
-  - Mehrdimensionale Arrays
-  - Objektmethoden & Strings
+  - Objekte
+  - Strings
 - **Kapitel 3: Eigene Klassen**
   - Eigene Klassen schreiben
-  - Interfaces & Polymorphie
+  - Interfaces 
   - Vererbung
   - Überschreiben
 - **Kapitel 4: Dynamische Datenstrukturen & Performance**
@@ -31,13 +31,15 @@ Jeden Tag von Montag den 09.03.2026 bis Freitag den 13.03.2026 von 10:30 bis 14:
   - Packages & Classpath
   - Exceptions
   - Standardeingabe & Pipelining
-  - Higher Order Functions
-  - Stream-API
+  - Higher Order Functions 
+  - Stream-API (Collections.stream(), map, filter, forEach)
 - **Kapitel 6: Klausurtraining mit Altklausuren**
 
-# Progra Altklausur Lösungsvideos
+# Altklausuren
 
-Ab 2021 gibt es Lösungsvideos für viele der Altklausuren in unserer Mediathek:
+In diesem Repo gibt es alle Altklausuren ab 2021. Weitere findet ihr auf der Seite der Fachschaft: <https://fscs.hhu.de/de/klausurarchiv/>
+
+Für fast alle Altklausuren ab 2021 gibt es in der Mediathek Lösungsvideos:
 
 ## WS 21/22
 
