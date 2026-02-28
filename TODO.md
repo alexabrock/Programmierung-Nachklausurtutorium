@@ -3,7 +3,7 @@
 ---
 
 ## 🌍 Global
-- [x]A global: überall public vor den Methoden & Klassen entfernen  
+- [x] A global: überall public vor den Methoden & Klassen entfernen  
 - [ ] Aufgaben als Markdown  
 - [ ] Inhalte des NKT md in README updaten zu Plan von NKT  
 - [ ] Aufgaben alle austauschen mit abgeänderten Altklausuraufgaben  
