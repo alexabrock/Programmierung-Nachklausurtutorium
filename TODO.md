@@ -3,23 +3,20 @@
 ---
 
 ## 🌍 Global
-<<<<<<< HEAD
 - [ ] global: überall public vor den Methoden & Klassen entfernen  
-=======
 - [x] A global: überall public vor den Methoden & Klassen entfernen  
->>>>>>> 2abce61555bc3f8ec2918778bc4158c678399e59
 - [ ] Aufgaben als Markdown  
 - [ ] Inhalte des NKT md in README updaten zu Plan von NKT  
 - [ ] Aufgaben alle austauschen mit abgeänderten Altklausuraufgaben  
 - [ ] → Folien durchgehen und schauen, was wir noch klauen können  
-- [ ] Quellen-Folie: Die Quellen basieren auf den Folien von: + Auflistung der Beteiligten Markus, Sven, Jonas  
+- [x] A Quellen-Folie: Die Quellen basieren auf den Folien von: + Auflistung der Beteiligten Markus, Sven, Jonas  
 
 ---
 
 ## 🟦 Tag 1
 - [ ] Methoden an dem Tag erklären, nicht an Tag 2  
 - [ ] kompilieren und ausführen (`java Programmname.java`)
-- [ ] Pipelining minimal zeigen
+(- [ ] Pipelining minimal zeigen) //war nt in HK oder PK
 - [ ] Idiomatisch Folien von Sven klauen und mit Folie 12 austauschen  
 - [ ] Folie 13: besseres Array-Beispiel, eins für mehrdimensionale  
 - [ ] Folie 16 und 17 an einen Tag schieben, an dem Klassen schon fertig definiert wurden  
