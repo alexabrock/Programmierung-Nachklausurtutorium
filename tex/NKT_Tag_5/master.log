@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.7)  8 FEB 2026 15:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.7)  1 MAR 2026 01:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1377,7 +1377,7 @@ Package biblatex Info: ... file 'master.bbl' found.
 Package biblatex Info: Reference section=0 on input line 70.
 Package biblatex Info: Reference segment=0 on input line 70.
  (master.nav)
-<fig/background_heine.pdf, id=16, 903.375pt x 508.90125pt>
+<fig/background_heine.pdf, id=12, 903.375pt x 508.90125pt>
 File: fig/background_heine.pdf Graphic file (type pdf)
 <use fig/background_heine.pdf>
 Package pdftex.def Info: fig/background_heine.pdf  used on input line 90.
@@ -1385,118 +1385,14 @@ Package pdftex.def Info: fig/background_heine.pdf  used on input line 90.
  [1
 
 {C:/Users/diewi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./fig/background_heine.pdf>] (master.toc)
-<fig/background_cd_2020.pdf, id=27, 903.375pt x 508.90125pt>
+<fig/background_cd_2020.pdf, id=22, 903.375pt x 508.90125pt>
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 98.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [2
 
- <./fig/background_cd_2020.pdf>] (vererbung.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 9.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 9.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 9.
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 9.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [3
-
-]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 22.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 22.
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 22.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [4
-
-]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 39.
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 39.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [5
-
-]
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 48.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [6
-
-]
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 56.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [7
-
-]
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 64.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [8
-
-]
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 74.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [9
-
-]
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 82.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [10
-
-]
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 90.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [11
-
-]
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 98.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [12
-
-]
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 106.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [13
-
-]
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 109.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [14
-
-])
+ <./fig/background_cd_2020.pdf>]
 \tf@nav=\write8
 \openout8 = `master.nav'.
 
@@ -1506,7 +1402,7 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 109.
 \tf@snm=\write10
 \openout10 = `master.snm'.
 
-runsystem(latexminted cleantemp  --timestamp 20260208150836 EB0A191797624DD3A48FA681D3061212)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20260301013450 EB0A191797624DD3A48FA681D3061212)...disabled (restricted).
 
  (master.aux)
  ***********
@@ -1514,23 +1410,23 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 9C1AD395B82F23A7A83BF94BFF72A6E5;78.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'master.run.xml'.
 \openout1 = `master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42371 strings out of 467866
- 893058 string characters out of 5418326
- 1632533 words of memory out of 5000000
- 70478 multiletter control sequences out of 15000+600000
- 676373 words of font info for 96 fonts, out of 8000000 for 9000
+ 42028 strings out of 467866
+ 885519 string characters out of 5418326
+ 1628524 words of memory out of 5000000
+ 70193 multiletter control sequences out of 15000+600000
+ 644691 words of font info for 52 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 128i,11n,123p,1951b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on master.pdf (14 pages, 124391 bytes).
+ 128i,10n,123p,1951b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on master.pdf (2 pages, 28475 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,10 @@
-\frametitle{Mini-Game}
-    Entwickeln sie ihr Game weiter:
-    \begin{enumerate}
-        \item überlegen Sie sich sinnvolle Interfaces (\textit{useable}, \textit{weapon}, etc.)
-        \item implementieren Sie eine Methode \textit{sort}, die verschiedene Arten für das Sortieren des Inventares bereitstellt (bspw. alphabetisch, nach gewicht, etc.)
-        \item erstellen sie eine Spieler Klasse
-        \item das Spiel verwaltet eine Liste von Spieler Objekten
-    \end{enumerate}
+\frametitle{Beispielaufgabe}
+\begin{enumerate}
+    \item Schreiben Sie eine Klasse \textit{Stack}, die einen \textit{int Stack} als Datenstruktur implementiert
+    \item implementieren Sie \textit{push}
+    \item implementieren Sie \textit{pop}
+    \item implementieren Sie \textit{peek}
+    \item implementieren Sie \textit{isEmpty}
+    \item implementieren Sie \textit{size}
+    \item ändern Sie ihre Klasse so, dass diese generisch funktioniert
+\end{enumerate}

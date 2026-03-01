@@ -1,24 +1,25 @@
 \section{Binäre Suche}
 
+
 \begin{frame}[fragile]
-\frametitle{Binäre Suche}
-Wir stellen uns vor wir haben ein sortiertes Array an Zahlen.
-\begin{lstlisting}
-    int[] myArray = {1,4,5,6,8,8,10};
-\end{lstlisting}
-Wie finden wir nun raus, an welchem Index die Zahl 5 liegt?
+\frametitle{Binäre Suche - Ziel}
+\begin{itemize}
+    \item Ziel: Finde die Position eines bestimmten Elements in einem sortierten Array.
+\end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
-\frametitle{Binäre Suche - Funktionsweise}
-\begin{enumerate}
-    \item Wir schauen uns das mittlere Element an.
-    \item Ist dieses Element die gesuchte Zahl, sind wir fertig.
-    \item Ist die gesuchte Zahl kleiner als das mittlere Element, suchen wir im linken Teil des Arrays weiter.
-    \item Ist die gesuchte Zahl größer als das mittlere Element, suchen wir im rechten Teil des Arrays weiter.
-    \item Wir wiederholen die Schritte 1-4, bis wir die Zahl gefunden haben oder der Suchbereich leer ist.
-\end{enumerate}
+\frametitle{Beispiel: Suche nach der Zahl 8 }
+\begin{center}
+     \includegraphics[height=0.7\textheight]{images/binSearchHappyCase}
+\end{center}
+\end{frame}
 
+\begin{frame}[fragile]
+\frametitle{Beispiel: erfolglose Suche nach der Zahl 8 }
+\begin{center}
+     \includegraphics[height=0.7\textheight]{images/binSearchBadCase}
+\end{center}
 \end{frame}
 
 \begin{frame}[fragile]
