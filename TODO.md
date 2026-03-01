@@ -57,22 +57,23 @@ entfernt:
   - [ ] hier auch Methodenreferenzen, Lambda-Ausdruck , funktionales interface
   - [ ] explizit sagen: das geht auch auf Listen, nicht nur auf Streams
 - [ ]  Übersicht von Collections
-- [ ] Listen vor dem Rest Bilder aus Folien Klauen (Woche 7)
-- [ ] Bei Listen auch Generics ergänzen
-- [ ] Binäre Suche mit einem schöneren GIF / Video / Bild erklären  (In woche 10 binäre Suchbäume klauen)
+- [ ] Listen vor dem Rest
+- [x] A Listen- Bilder aus Folien Klauen (Woche 7)
+- [x] A Bei Listen auch Generics ergänzen (aus Tag 4)
+- [ ] Binäre Suche Schreenshots erneuern (Alexas Screenshot tool ist doof) (https://hsp.pages.cs.uni-duesseldorf.de/programmierung/website/assets/files/16_suchen-ilias-27e0436b262d5c8e42ac08e09e5174b9.pdf)
 - [ ] Binäre-Suche-Aufgaben ändern  
-- [ ] Folie 13: Nur Insertionsort & Mergesort 
+- [x] A Folie 13: Nur Insertionsort & Mergesort 
   - [ ] bei den ganzen Sortierverfahren auch schönere Bilder  
   - [ ] bei MergeSort süß interaktiv mit den Studis durchspielen  
 - [ ] Listen erklären (Folie 18 überarbeiten)  
-  - [ ] Listen-Überschrift nicht „Linked List“, sondern „Listen“  
+  - [x] A Listen-Überschrift nicht „Linked List“, sondern „Listen“  
   - [ ] Beispielaufgaben sind gut
   - [ ] Listentypen, und wofür sind welche gut 
 
 ---
 
 ## 🟧 Tag 4 & 5
-- [ ] zusammenschmeißen  
+- [x] zusammenschmeißen  
 
 ---
 
