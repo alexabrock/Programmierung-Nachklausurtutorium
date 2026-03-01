@@ -82,7 +82,8 @@ entfernt:
 ## 🟥 Tag 4
 - [x] A Folie 3: O(1) ist Quatsch, Ziel: `contains()` geht schnell  
 - [x] A Folie 5: nicht Knotenwert, sondern Wurzel  
-- [x] Folien 7–10: Code vergrößern  
+- [x] Folien 7–10: Code vergrößern
+- [ ] Fix Gliederung,  die nicht rendert
 
 ---
 
