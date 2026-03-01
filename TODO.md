@@ -9,7 +9,8 @@
 - [ ] Inhalte des NKT md in README updaten zu Plan von NKT  
 - [ ] Aufgaben alle austauschen mit abgeänderten Altklausuraufgaben  
 - [ ] → Folien durchgehen und schauen, was wir noch klauen können  
-- [x] A Quellen-Folie: Die Quellen basieren auf den Folien von: + Auflistung der Beteiligten Markus, Sven, Jonas  
+- [x] A Quellen-Folie: Die Quellen basieren auf den Folien von: + Auflistung der Beteiligten Markus, Sven, Jonas
+- [ ] Tobi & Alexa als Authoren setzen
 
 ---
 
@@ -23,8 +24,8 @@
 - [ ] classpath vs packagepath erklären  
 - [ ] Folie zu Sichtbarkeiten von Klassen (nach Klassen):  
   - [ ] Was sind sinnvolle Sichtbarkeiten (für interne Methoden, Attribute?, externe Methoden, Klassen package-private)  
-- [ ] Interfaces zu Klassen schmeißen  
-  - [ ] Interfaces sind abstrakt → rausschmeißen  
+- [ ] Interfaces zu Klassen schmeißen (sind grade an Tag 3)
+  - [x] Interfaces sind abstrakt → rausschmeißen  
 - [ ] Vererbung einfügen
       
 entfernt:
@@ -65,7 +66,8 @@ entfernt:
 - [x] A Folie 13: Nur Insertionsort & Mergesort 
   - [ ] bei den ganzen Sortierverfahren auch schönere Bilder  
   - [ ] bei MergeSort süß interaktiv mit den Studis durchspielen  
-- [ ] Listen erklären (Folie 18 überarbeiten)  
+- [ ] Listen erklären (Folie 18 überarbeiten)
+  - [ ]  Klasse `Node` (PK 25 Code) miterklären    
   - [x] A Listen-Überschrift nicht „Linked List“, sondern „Listen“  
   - [ ] Beispielaufgaben sind gut
   - [ ] Listentypen, und wofür sind welche gut 
@@ -73,31 +75,32 @@ entfernt:
 ---
 
 ## 🟧 Tag 4 & 5
-- [x] zusammenschmeißen  
+- [x] A zusammenschmeißen  
 
 ---
 
 ## 🟥 Tag 4
-- [ ] Folie 3: O(1) ist Quatsch, Ziel: `contains()` geht schnell  
-- [ ] Folie 5: nicht Knotenwert, sondern Wurzel  
-- [ ] Folie 7: Klasse `Node` (PK 25 Code) miterklären  
-- [ ] Folien 7–10: Code vergrößern  
+- [x] A Folie 3: O(1) ist Quatsch, Ziel: `contains()` geht schnell  
+- [x] A Folie 5: nicht Knotenwert, sondern Wurzel  
+- [x] Folien 7–10: Code vergrößern
+- [ ] Fix Gliederung,  die nicht rendert
 
 ---
 
 ## 🟪 Tag 5
-- [ ] Folie 5: nichts von Buckets oder Sondierung oder Verkettung  
-  - [ ] da muss der Rest rein  
-- [ ] Folie 9: raus  
-- [ ] Folie 6: raus  
-- [ ] Folie 8: raus  
-- [ ] Folie 7: raus  
+- [x] Folie 5: nichts von Buckets oder Sondierung oder Verkettung  
+  - [x] da muss der Rest rein  
+- [x] A Folie 9: raus  
+- [x] A Folie 6: raus  
+- [x] A Folie 8: raus  
+- [x] A Folie 7: raus  
 - [ ] Rein: Studis sollen ein Bild an die Tafel malen und grobes Prinzip erklären  
-  - [ ] Array zum Speichern der Einträge  
-  - [ ] Array-Platz `null` = leer (oder so, jedenfalls irgendwie gekennzeichnet)  
-  - [ ] Array-Index für einen Eintrag ergibt sich aus dessen Hashcode  
-  - [ ] Klassen definieren selbst `hashCode` (oder erben Standardimplementierung)  (hashCode ist Methode die Hashfunktion definiert) 
-- [ ] Aufgaben 2–4 sind Quatsch, raus damit (Folie 12–14)  
+  - [x] A Array zum Speichern der Einträge  
+  - [x] Array-Platz `null` = leer (oder so, jedenfalls irgendwie gekennzeichnet)  
+  - [x] Array-Index für einen Eintrag ergibt sich aus dessen Hashcode  
+  - [x] Klassen definieren selbst `hashCode` (oder erben Standardimplementierung)  (hashCode ist Methode die Hashfunktion definiert) 
+- [x] Aufgaben 2–4 sind Quatsch, raus damit (Folie 12–14)
+- [x] https://hsp.pages.cs.uni-duesseldorf.de/programmierung/website/assets/files/20_hashset-ilias-faf85bbe7b9bb5372535a8b6bed88f8d.pdf hier schönes hashset beispiel machen, in dem man ne hashtabelle mal in action sieht
 
 ---
 
