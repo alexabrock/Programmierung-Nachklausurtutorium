@@ -27,15 +27,15 @@
 % If you want to exclude the appendix from the frame counter you have to use the appendixnumberbeamer package. But be aware that the current version causes a problem with the frame counter.
 \usepackage{appendixnumberbeamer}
 
-%% Die folgenden Zeilen können auskommentiert werden, um vor jedem Kapitel eine Gliederungsfolie einzufügen
-% \AtBeginSection[] {
-%   \begin{frame}<beamer>
-%     \thispagestyle{empty}
-%     \frametitle{Gliederung}
-%     \vspace{-5mm}
-%     \tableofcontents[currentsection]
-%   \end{frame}
-% }
+ %%Die folgenden Zeilen können auskommentiert werden, um vor jedem Kapitel eine Gliederungsfolie einzufügen
+ \AtBeginSection[] {
+   \begin{frame}<beamer>
+    \thispagestyle{empty}
+    \frametitle{Gliederung}
+    \vspace{-5mm}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
 
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{fig/background_cd_2020}}
 
@@ -53,9 +53,9 @@
 % % % % % % % % % %  CHANGE TOPIC AND AUTHOR INFORMATION HERE % % % % % % % % %
 \newcommand{\abschluss}{NKT}                              % HIER UNZUTREFFENDES LÖSCHEN
 \title{\abschluss{}\\Tag 1: Datentypen, Bedingungen und Arrays}                      % HIER DEN TITEL DER ARBEIT EINTRAGEN
-\author{Sven Hoops, Jonas Goudarzi}
+\author{Tobias Wrede, Alexa Katharina-Ronja Brockmöller}
 % HIER DEN NAMEN UND VORNAMEN EINTRAGEN
-\date{10.03.2025}                                                                % HIER DAS PRÄSENTATIONSDATUM EINTRAGEN
+\date{\today}                                                             % HIER DAS PRÄSENTATIONSDATUM EINTRAGEN
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \institute{Institut für Informatik\\Heinrich-Heine-Universität Düsseldorf}
 \subject{Informatik}

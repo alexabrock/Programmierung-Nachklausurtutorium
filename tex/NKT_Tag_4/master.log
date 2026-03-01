@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.7)  1 MAR 2026 01:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.7)  1 MAR 2026 03:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -966,254 +966,16 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@minted@FancyVerbLineTemp=\count434
 \@float@every@listing=\toks57
 \c@listing=\count435
-) (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count436
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-\c@tabx@nest=\count437
-\c@listtotal=\count438
-\c@listcount=\count439
-\c@liststart=\count440
-\c@liststop=\count441
-\c@citecount=\count442
-\c@citetotal=\count443
-\c@multicitecount=\count444
-\c@multicitetotal=\count445
-\c@instcount=\count446
-\c@maxnames=\count447
-\c@minnames=\count448
-\c@maxitems=\count449
-\c@minitems=\count450
-\c@citecounter=\count451
-\c@maxcitecounter=\count452
-\c@savedcitecounter=\count453
-\c@uniquelist=\count454
-\c@uniquename=\count455
-\c@refsection=\count456
-\c@refsegment=\count457
-\c@maxextratitle=\count458
-\c@maxextratitleyear=\count459
-\c@maxextraname=\count460
-\c@maxextradate=\count461
-\c@maxextraalpha=\count462
-\c@abbrvpenalty=\count463
-\c@highnamepenalty=\count464
-\c@lownamepenalty=\count465
-\c@maxparens=\count466
-\c@parenlevel=\count467
-\blx@tempcnta=\count468
-\blx@tempcntb=\count469
-\blx@tempcntc=\count470
-\c@blx@maxsection=\count471
-\blx@maxsegment@0=\count472
-\blx@notetype=\count473
-\blx@parenlevel@text=\count474
-\blx@parenlevel@foot=\count475
-\blx@sectionciteorder@0=\count476
-\blx@sectionciteorderinternal@0=\count477
-\blx@entrysetcounter=\count478
-\blx@biblioinstance=\count479
-\labelnumberwidth=\skip79
-\labelalphawidth=\skip80
-\biblabelsep=\skip81
-\bibitemsep=\skip82
-\bibnamesep=\skip83
-\bibinitsep=\skip84
-\bibparsep=\skip85
-\bibhang=\skip86
-\blx@bcfin=\read5
-\blx@bcfout=\write6
-\blx@langwohyphens=\language80
-\c@mincomprange=\count480
-\c@maxcomprange=\count481
-\c@mincompwidth=\count482
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'verbose.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count483
-\c@savedafterword=\count484
-\c@annotator=\count485
-\c@savedannotator=\count486
-\c@author=\count487
-\c@savedauthor=\count488
-\c@bookauthor=\count489
-\c@savedbookauthor=\count490
-\c@commentator=\count491
-\c@savedcommentator=\count492
-\c@editor=\count493
-\c@savededitor=\count494
-\c@editora=\count495
-\c@savededitora=\count496
-\c@editorb=\count497
-\c@savededitorb=\count498
-\c@editorc=\count499
-\c@savededitorc=\count500
-\c@foreword=\count501
-\c@savedforeword=\count502
-\c@holder=\count503
-\c@savedholder=\count504
-\c@introduction=\count505
-\c@savedintroduction=\count506
-\c@namea=\count507
-\c@savednamea=\count508
-\c@nameb=\count509
-\c@savednameb=\count510
-\c@namec=\count511
-\c@savednamec=\count512
-\c@translator=\count513
-\c@savedtranslator=\count514
-\c@shortauthor=\count515
-\c@savedshortauthor=\count516
-\c@shorteditor=\count517
-\c@savedshorteditor=\count518
-\c@labelname=\count519
-\c@savedlabelname=\count520
-\c@institution=\count521
-\c@savedinstitution=\count522
-\c@lista=\count523
-\c@savedlista=\count524
-\c@listb=\count525
-\c@savedlistb=\count526
-\c@listc=\count527
-\c@savedlistc=\count528
-\c@listd=\count529
-\c@savedlistd=\count530
-\c@liste=\count531
-\c@savedliste=\count532
-\c@listf=\count533
-\c@savedlistf=\count534
-\c@location=\count535
-\c@savedlocation=\count536
-\c@organization=\count537
-\c@savedorganization=\count538
-\c@origlocation=\count539
-\c@savedoriglocation=\count540
-\c@origpublisher=\count541
-\c@savedorigpublisher=\count542
-\c@publisher=\count543
-\c@savedpublisher=\count544
-\c@language=\count545
-\c@savedlanguage=\count546
-\c@origlanguage=\count547
-\c@savedoriglanguage=\count548
-\c@pageref=\count549
-\c@savedpageref=\count550
-\shorthandwidth=\skip87
-\shortjournalwidth=\skip88
-\shortserieswidth=\skip89
-\shorttitlewidth=\skip90
-\shortauthorwidth=\skip91
-\shorteditorwidth=\skip92
-\locallabelnumberwidth=\skip93
-\locallabelalphawidth=\skip94
-\localshorthandwidth=\skip95
-\localshortjournalwidth=\skip96
-\localshortserieswidth=\skip97
-\localshorttitlewidth=\skip98
-\localshortauthorwidth=\skip99
-\localshorteditorwidth=\skip100
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load BibTeX backend compatibility...
-Package biblatex Info: ... file 'blx-bibtex.def' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
-File: blx-bibtex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-
-
-Package biblatex Warning: Using fall-back bibtex backend:
-(biblatex)                functionality may be reduced/unavailable.
-
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count551
-\c@textcitetotal=\count552
-\c@textcitemaxnames=\count553
-\c@biburlbigbreakpenalty=\count554
-\c@biburlbreakpenalty=\count555
-\c@biburlnumpenalty=\count556
-\c@biburlucpenalty=\count557
-\c@biburllcpenalty=\count558
-\biburlbigskip=\muskip19
-\biburlnumskip=\muskip20
-\biburlucskip=\muskip21
-\biburllcskip=\muskip22
-\c@smartand=\count559
-)
-Package biblatex Info: Trying to load bibliography style 'verbose'...
-Package biblatex Info: ... file 'verbose.bbx' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\verbose.bbx
-File: verbose.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'authortitle'...
-Package biblatex Info: ... file 'authortitle.bbx' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authortitle.bbx
-File: authortitle.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
-File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count560
-\c@bbx:relatedtotal=\count561
-)))
-Package biblatex Info: Trying to load citation style 'verbose'...
-Package biblatex Info: ... file 'verbose.cbx' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\verbose.cbx
-File: verbose.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Document encoding is UTF8 ....
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2026-01-19 L3 programming layer (loader) 
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count562
-))
-Package biblatex Info: ... and expl3
-(biblatex)             2026-01-19 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2025-10-09 L3 Experimental document command parser
-)
-Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-)) (appendixnumberbeamer.sty)
+) (appendixnumberbeamer.sty)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (master.aux
-Package babel Info: 'ngerman' activates 'german' shorthands.
-(babel)             Reported on input line 12.
+ (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count436
 )
+No file master.aux.
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
@@ -1234,7 +996,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1271,16 +1032,16 @@ LaTeX Font Info:    ... okay on input line 70.
 
 (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count563
+\scratchcounter=\count437
 \scratchdimen=\dimen347
 \scratchbox=\box161
-\nofMPsegments=\count564
-\nofMParguments=\count565
+\nofMPsegments=\count438
+\nofMParguments=\count439
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count566
+\MPscratchCnt=\count440
 \MPscratchDim=\dimen348
-\MPnumerator=\count567
-\makeMPintoPDFobject=\count568
+\MPnumerator=\count441
+\makeMPintoPDFobject=\count442
 \everyMPtoPDFconversion=\toks59
 ) (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1289,9 +1050,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 70.
- (master.out) (master.out)
-\@outlinefile=\write7
-\openout7 = `master.out'.
+\@outlinefile=\write6
+\openout6 = `master.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 70.
@@ -1348,63 +1108,37 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@lstlisting=\count569
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx
-File: ngerman.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
-File: german.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
- (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
-File: german.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-))
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             No need to reencode data.
-\openout6 = `master-blx.bib'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'master.bbl' found.
- (master.bbl)
-Package biblatex Info: Reference section=0 on input line 70.
-Package biblatex Info: Reference segment=0 on input line 70.
+Package babel Info: 'ngerman' activates 'german' shorthands.
+(babel)             Reported on input line 70.
+\c@lstlisting=\count443
  (master.nav)
-<fig/background_heine.pdf, id=20, 903.375pt x 508.90125pt>
+<fig/background_heine.pdf, id=12, 903.375pt x 508.90125pt>
 File: fig/background_heine.pdf Graphic file (type pdf)
 <use fig/background_heine.pdf>
 Package pdftex.def Info: fig/background_heine.pdf  used on input line 90.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [1
 
-{C:/Users/diewi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./fig/background_heine.pdf>] (master.toc)
-<fig/background_cd_2020.pdf, id=32, 903.375pt x 508.90125pt>
+{C:/Users/diewi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./fig/background_heine.pdf>]
+No file master.toc.
+<fig/background_cd_2020.pdf, id=22, 903.375pt x 508.90125pt>
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 98.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [2
+[2
 
- <./fig/background_cd_2020.pdf>] (binbäume.tex (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-)
-\openout4 = `master.vrb'.
-
- (master.vrb)
+ <./fig/background_cd_2020.pdf>]
+No file master.toc.
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 34.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 102.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [3
+[3
 
-]
+] (binbäume.tex (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
 \openout4 = `master.vrb'.
 
  (master.vrb
@@ -1422,7 +1156,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
-<images/Baum_Grundstruktur-01.png, id=47, 493.0922pt x 581.17125pt>
+<images/Baum_Grundstruktur-01.png, id=36, 493.0922pt x 581.17125pt>
 File: images/Baum_Grundstruktur-01.png Graphic file (type png)
 <use images/Baum_Grundstruktur-01.png>
 Package pdftex.def Info: images/Baum_Grundstruktur-01.png  used on input line 15.
@@ -1430,7 +1164,7 @@ Package pdftex.def Info: images/Baum_Grundstruktur-01.png  used on input line 15
 )
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 58.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 50.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [4
 
@@ -1449,7 +1183,7 @@ Package pdftex.def Info: images/Baum_Grundstruktur-01.png  used on input line 20
 )
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 89.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 80.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [5
 
@@ -1457,7 +1191,7 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 89.
 \openout4 = `master.vrb'.
 
  (master.vrb
-<images/Baum_Grundstruktur-02.png, id=62, 1511.6475pt x 809.27344pt>
+<images/Baum_Grundstruktur-02.png, id=52, 1511.6475pt x 809.27344pt>
 File: images/Baum_Grundstruktur-02.png Graphic file (type png)
 <use images/Baum_Grundstruktur-02.png>
 Package pdftex.def Info: images/Baum_Grundstruktur-02.png  used on input line 17.
@@ -1470,7 +1204,7 @@ Overfull \hbox (17.85185pt too wide) in paragraph at lines 16--18
 )
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 115.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 106.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [6
 
@@ -1484,7 +1218,7 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ))
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 136.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 127.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [7
 
@@ -1492,22 +1226,53 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 136.
 \openout4 = `master.vrb'.
 
  (master.vrb
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <5> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 5.
 )
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 171.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 145.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [8
 
 ]
 \openout4 = `master.vrb'.
 
- (master.vrb)
+ (master.vrb
+
+master.vrb:16: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 // Neue Node einfügen
+                           
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+master.vrb:16: LaTeX Error: Invalid UTF-8 byte "BC.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 // Neue Node einfügen
+                           
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 191.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 171.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [9
 
@@ -1517,7 +1282,7 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 191.
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 215.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 191.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [10
 
@@ -1525,142 +1290,174 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 215.
 \openout4 = `master.vrb'.
 
  (master.vrb
-<images/ExceptionClassHierarchy.png, id=93, 4659.4075pt x 2584.65625pt>
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 8.
+)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 214.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [11
+
+]
+\openout4 = `master.vrb'.
+
+ (master.vrb
+<images/ExceptionClassHierarchy.png, id=88, 4659.4075pt x 2584.65625pt>
 File: images/ExceptionClassHierarchy.png Graphic file (type png)
 <use images/ExceptionClassHierarchy.png>
 Package pdftex.def Info: images/ExceptionClassHierarchy.png  used on input line 3.
 (pdftex.def)             Requested size: 325.76527pt x 180.74045pt.
 )
-Overfull \vbox (14.51364pt too high) detected at line 224
+Overfull \vbox (14.51364pt too high) detected at line 223
  []
 
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 224.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 223.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
-[11
+[12
 
- <./images/ExceptionClassHierarchy.png>]) (hashing.tex
+ <./images/ExceptionClassHierarchy.png>])
+No file master.toc.
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 9.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 105.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [12
+[13
+
+] (hashing.tex
+No file master.toc.
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 1.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+[14
+
+]
+No file master.toc.
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 3.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+[15
 
 ]
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 22.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [13
-
-]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 39.
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 39.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [14
-
-]
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 48.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [15
-
-]
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 56.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 12.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [16
 
 ]
+No file master.toc.
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 64.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 14.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [17
+[17
 
 ]
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 74.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 21.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [18
 
 ]
+No file master.toc.
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 82.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 23.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [19
+[19
 
 ]
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 90.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 33.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [20
 
 ]
+No file master.toc.
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 98.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 35.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [21
+[21
 
 ]
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 106.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 45.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [22
 
 ]
+<images/hash.png, id=157, 1474.75969pt x 534.49687pt>
+File: images/hash.png Graphic file (type png)
+<use images/hash.png>
+Package pdftex.def Info: images/hash.png  used on input line 49.
+(pdftex.def)             Requested size: 401.19386pt x 145.40079pt.
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 109.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 49.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [23
 
+ <./images/hash.png>]
+No file master.toc.
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 52.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+[24
+
+]
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 59.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [25
+
 ])
-\tf@nav=\write8
-\openout8 = `master.nav'.
+\tf@nav=\write7
+\openout7 = `master.nav'.
 
-\tf@toc=\write9
-\openout9 = `master.toc'.
+\tf@toc=\write8
+\openout8 = `master.toc'.
 
-\tf@snm=\write10
-\openout10 = `master.snm'.
-
-runsystem(latexminted cleantemp  --timestamp 20260301013610 EB0A191797624DD3A48FA681D3061212)...disabled (restricted).
+\tf@snm=\write9
+\openout9 = `master.snm'.
 
  (master.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: A5FA395CED95E7D2E1D4BF9C7A899219;149.
-Package logreq Info: Writing requests to 'master.run.xml'.
-\openout1 = `master.run.xml'.
 
+
+Package rerunfilecheck Warning: File `master.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `master.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  23CEAE31B8BA77730FA1B21069FC239F;834.
  ) 
 Here is how much of TeX's memory you used:
- 42880 strings out of 467866
- 899644 string characters out of 5418326
- 2016224 words of memory out of 5000000
- 70931 multiletter control sequences out of 15000+600000
- 683775 words of font info for 107 fonts, out of 8000000 for 9000
- 1143 hyphenation exceptions out of 8191
- 128i,13n,123p,1951b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on master.pdf (23 pages, 717686 bytes).
+ 35693 strings out of 467866
+ 752421 string characters out of 5418326
+ 1574377 words of memory out of 5000000
+ 63811 multiletter control sequences out of 15000+600000
+ 681194 words of font info for 105 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,13n,123p,529b,1288s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on master.pdf (25 pages, 778583 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

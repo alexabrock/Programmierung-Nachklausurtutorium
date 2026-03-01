@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.7)  1 MAR 2026 01:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.7)  1 MAR 2026 02:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1402,7 +1402,7 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 98.
 \tf@snm=\write10
 \openout10 = `master.snm'.
 
-runsystem(latexminted cleantemp  --timestamp 20260301013450 EB0A191797624DD3A48FA681D3061212)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20260301024420 EB0A191797624DD3A48FA681D3061212)...disabled (restricted).
 
  (master.aux)
  ***********
@@ -1416,15 +1416,15 @@ Package logreq Info: Writing requests to 'master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42028 strings out of 467866
- 885519 string characters out of 5418326
- 1628524 words of memory out of 5000000
- 70193 multiletter control sequences out of 15000+600000
+ 42032 strings out of 467866
+ 885569 string characters out of 5418326
+ 1628880 words of memory out of 5000000
+ 70197 multiletter control sequences out of 15000+600000
  644691 words of font info for 52 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  128i,10n,123p,1951b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on master.pdf (2 pages, 28475 bytes).
+Output written on master.pdf (2 pages, 32222 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)

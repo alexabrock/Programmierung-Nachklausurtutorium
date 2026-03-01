@@ -8,7 +8,7 @@
 
 \lstdefinestyle{mystyle}{
     language=java,
-    basicstyle=\ttfamily\tiny,
+    basicstyle=\ttfamily\small, 
     breakatwhitespace=false,         
     breaklines=true,                 
     captionpos=b,                    
@@ -23,15 +23,7 @@
 
 \lstset{style=mystyle}
 
-\section{Bäume}
 
-\begin{frame}[fragile]
-\frametitle{Bäume}
-\begin{center}
-    Baum:
-\end{center}
-
-\end{frame}
 
 \begin{frame}[fragile]
 \frametitle{Bäume}
@@ -58,9 +50,8 @@
 \end{frame}
 
 
-
 \begin{frame}[fragile]
-\frametitle{Bäume}
+\frametitle{Binärer Suchbaum}
 \begin{center}
     Baum:\\
    \end{center} 
@@ -69,7 +60,7 @@
      
 \item Ordnung: 
     \begin{itemize}
-        \item Alle Knoten im linken Teilbaum kleiner als Knotenwert
+        \item Alle Knoten im linken Teilbaum kleiner als (Teilbaum-) Wurzel
         \item alle Knoten im rechten Teilbaum größer
     \end{itemize}
 (= „binärer Suchbaum“)
@@ -136,8 +127,9 @@ private BinaryNode root;
 \end{frame}
 
 \begin{frame}[fragile]
-\frametitle{Bäume - Einfügen}
-\begin{lstlisting}
+\frametitle{Bäume - Einfügen (Teil 1)}
+
+\begin{lstlisting}[language=java,basicstyle=\ttfamily\footnotesize,breaklines=true]
 void insert(int newNumber) {
     // Sonderfall: leerer Baum
     if (root == null) {
@@ -147,25 +139,33 @@ void insert(int newNumber) {
 
     BinaryNode parent = null;
     BinaryNode child = root;
-    
-    while (child != null) {
-        parent = child;
-        if (newNumber == child.element) {
-            // Zahl bereits im Baum vorhanden
-            return;
-        } else if (newNumber < child.element) {
-            child = child.left;
-        } else {
-            child = child.right;
-        }
-    }
-    if (newNumber < parent.element) {
-        parent.left = new BinaryNode(newNumber);
+[...]
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Bäume - Einfügen (Teil 2)}
+
+\begin{lstlisting}[language=java,basicstyle=\ttfamily\footnotesize,breaklines=true]
+// Baum durchsuchen
+while (child != null) {
+    parent = child;
+    if (newNumber == child.element) {
+        // Zahl bereits vorhanden
+        return;
+    } else if (newNumber < child.element) {
+        child = child.left;
     } else {
-        parent.right = new BinaryNode(newNumber);
+        child = child.right;
     }
 }
-
+// Neue Node einfügen
+if (newNumber < parent.element) {
+    parent.left = new BinaryNode(newNumber);
+} else {
+    parent.right = new BinaryNode(newNumber);
+}}
 \end{lstlisting}
 
 \end{frame}
@@ -189,7 +189,6 @@ int minimum() {
 \end{lstlisting}
 
 \end{frame}
-
 
 
 \begin{frame}[fragile]

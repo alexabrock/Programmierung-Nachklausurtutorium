@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.7)  1 MAR 2026 01:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.7)  1 MAR 2026 02:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1392,7 +1392,14 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 97.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [2
 
- <./fig/background_cd_2020.pdf>] (interfaces.tex (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+ <./fig/background_cd_2020.pdf>] (interfaces.tex (master.toc)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 1.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [3
+
+] (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
@@ -1414,28 +1421,18 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 11.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 10.
  (C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 14.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 14.
 )
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 33.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [3
-
-]
-\openout4 = `master.vrb'.
-
- (master.vrb)
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 46.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 32.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [4
 
@@ -1445,7 +1442,7 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 46.
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 62.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 45.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [5
 
@@ -1455,7 +1452,7 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 62.
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 80.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 61.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [6
 
@@ -1465,11 +1462,28 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 80.
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 90.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 79.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [7
 
-]) (binsuche.tex
+]
+\openout4 = `master.vrb'.
+
+ (master.vrb)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 89.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [8
+
+]) (binsuche.tex (master.toc)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 1.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [9
+
+]
 \openout4 = `master.vrb'.
 
  (master.vrb)
@@ -1477,13 +1491,13 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 9.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [8
+ [10
 
 ]
 \openout4 = `master.vrb'.
 
  (master.vrb
-<images/binSearchHappyCase.png, id=103, 1110.39844pt x 828.84656pt>
+<images/binSearchHappyCase.png, id=128, 1110.39844pt x 828.84656pt>
 File: images/binSearchHappyCase.png Graphic file (type png)
 <use images/binSearchHappyCase.png>
 Package pdftex.def Info: images/binSearchHappyCase.png  used on input line 3.
@@ -1493,13 +1507,13 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 16.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [9
+ [11
 
  <./images/binSearchHappyCase.png>]
 \openout4 = `master.vrb'.
 
  (master.vrb
-<images/binSearchBadCase.png, id=111, 361.35pt x 307.1475pt>
+<images/binSearchBadCase.png, id=136, 361.35pt x 307.1475pt>
 File: images/binSearchBadCase.png Graphic file (type png)
 <use images/binSearchBadCase.png>
 Package pdftex.def Info: images/binSearchBadCase.png  used on input line 3.
@@ -1509,7 +1523,7 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 23.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [10
+ [12
 
  <./images/binSearchBadCase.png>]
 \openout4 = `master.vrb'.
@@ -1519,7 +1533,7 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 39.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [11
+ [13
 
 ]
 \openout4 = `master.vrb'.
@@ -1529,32 +1543,12 @@ File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
 Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 48.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [12
-
-]) (sortieragorithmen.tex
-\openout4 = `master.vrb'.
-
- (master.vrb)
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 6.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [13
-
-]
-\openout4 = `master.vrb'.
-
- (master.vrb)
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 15.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [14
 
-]
+]) (sortieragorithmen.tex (master.toc)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 25.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 1.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [15
 
@@ -1564,7 +1558,7 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 25.
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 39.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 6.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [16
 
@@ -1574,9 +1568,16 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 39.
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 48.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 15.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [17
+
+]
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 25.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [18
 
 ]
 \openout4 = `master.vrb'.
@@ -1584,33 +1585,17 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 48.
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 63.
-(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
- [18
-
-]) (listen.tex
-\openout4 = `master.vrb'.
-
- (master.vrb
-<images/list.png, id=158, 1545.52406pt x 203.25937pt>
-File: images/list.png Graphic file (type png)
-<use images/list.png>
-Package pdftex.def Info: images/list.png  used on input line 14.
-(pdftex.def)             Requested size: 364.7172pt x 47.96445pt.
-)
-File: fig/background_cd_2020.pdf Graphic file (type pdf)
-<use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 19.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 39.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [19
 
- <./images/list.png>]
+]
 \openout4 = `master.vrb'.
 
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 35.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 48.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [20
 
@@ -1620,37 +1605,40 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 35.
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 46.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 63.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [21
 
-]) (generics.tex
-\openout4 = `master.vrb'.
-
- (master.vrb)
+]) (listen.tex (master.toc)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 32.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 1.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [22
 
 ]
 \openout4 = `master.vrb'.
 
- (master.vrb)
+ (master.vrb
+<images/list.png, id=207, 1545.52406pt x 203.25937pt>
+File: images/list.png Graphic file (type png)
+<use images/list.png>
+Package pdftex.def Info: images/list.png  used on input line 14.
+(pdftex.def)             Requested size: 364.7172pt x 47.96445pt.
+)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 49.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 19.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [23
 
-]
+ <./images/list.png>]
 \openout4 = `master.vrb'.
 
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 66.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 35.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [24
 
@@ -1660,9 +1648,56 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 66.
  (master.vrb)
 File: fig/background_cd_2020.pdf Graphic file (type pdf)
 <use fig/background_cd_2020.pdf>
-Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 79.
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 46.
 (pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
  [25
+
+]) (generics.tex (master.toc)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 1.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [26
+
+]
+\openout4 = `master.vrb'.
+
+ (master.vrb)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 32.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [27
+
+]
+\openout4 = `master.vrb'.
+
+ (master.vrb)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 49.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [28
+
+]
+\openout4 = `master.vrb'.
+
+ (master.vrb)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 66.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [29
+
+]
+\openout4 = `master.vrb'.
+
+ (master.vrb)
+File: fig/background_cd_2020.pdf Graphic file (type pdf)
+<use fig/background_cd_2020.pdf>
+Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 79.
+(pdftex.def)             Requested size: 455.24408pt x 256.46118pt.
+ [30
 
 ])
 \tf@nav=\write8
@@ -1674,7 +1709,7 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 79.
 \tf@snm=\write10
 \openout10 = `master.snm'.
 
-runsystem(latexminted cleantemp  --timestamp 20260301013129 EB0A191797624DD3A48FA681D3061212)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20260301024515 EB0A191797624DD3A48FA681D3061212)...disabled (restricted).
 
  (master.aux)
  ***********
@@ -1682,23 +1717,23 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 89F2A3ED0DECC2895FE42510752EC23E;739.
+(rerunfilecheck)             Checksum: 300030C31BEF80A4857DBAA5356691A5;739.
 Package logreq Info: Writing requests to 'master.run.xml'.
 \openout1 = `master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42996 strings out of 467866
- 901833 string characters out of 5418326
- 1846154 words of memory out of 5000000
- 71009 multiletter control sequences out of 15000+600000
+ 43052 strings out of 467866
+ 903331 string characters out of 5418326
+ 1846718 words of memory out of 5000000
+ 71045 multiletter control sequences out of 15000+600000
  678681 words of font info for 95 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  128i,11n,123p,1951b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/diewi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on master.pdf (25 pages, 196681 bytes).
+Output written on master.pdf (30 pages, 211626 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 

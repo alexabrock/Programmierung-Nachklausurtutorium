@@ -1,3 +1,9 @@
 \babel@toc {ngerman}{}\relax 
-\beamer@sectionintoc {1}{Bäume}{3}{0}{1}
-\beamer@sectionintoc {2}{Hashing}{12}{0}{2}
+\beamer@sectionintoc {1}{Binare Bäume}{3}{0}{1}
+\beamer@sectionintoc {2}{Hashing}{13}{0}{2}
+\beamer@sectionintoc {3}{Hashing}{14}{0}{3}
+\beamer@sectionintoc {4}{Was ist Hashing?}{15}{0}{4}
+\beamer@sectionintoc {5}{Hashfunktionen}{17}{0}{5}
+\beamer@sectionintoc {6}{Kollisionen}{19}{0}{6}
+\beamer@sectionintoc {7}{Hashset}{21}{0}{7}
+\beamer@sectionintoc {8}{Aufgabe: Hashfunktion}{24}{0}{8}

@@ -25,21 +25,21 @@
 \usepackage{listings}
 \usepackage{minted}
 
-\usepackage[backend=bibtex,style=verbose,url=false]{biblatex}
-\bibliography{lit}
+%\usepackage[backend=bibtex,style=verbose,url=false]{biblatex}
+%\bibliography{lit}
 % If you want to exclude the appendix from the frame counter you have to use the appendixnumberbeamer package. But be aware that the current version causes a problem with the frame counter.
 \usepackage{appendixnumberbeamer}
 
 
-%% Die folgenden Zeilen können auskommentiert werden, um vor jedem Kapitel eine Gliederungsfolie einzufügen
-% \AtBeginSection[] {
-%   \begin{frame}<beamer>
-%     \thispagestyle{empty}
-%     \frametitle{Gliederung}
-%     \vspace{-5mm}
-%     \tableofcontents[currentsection]
-%   \end{frame}
-% }
+ %%Die folgenden Zeilen können auskommentiert werden, um vor jedem Kapitel eine Gliederungsfolie einzufügen
+ \AtBeginSection[] {
+   \begin{frame}<beamer>
+    \thispagestyle{empty}
+    \frametitle{Gliederung}
+    \vspace{-5mm}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
 
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{fig/background_cd_2020}}
 
@@ -57,9 +57,9 @@
 % % % % % % % % % %  CHANGE TOPIC AND AUTHOR INFORMATION HERE % % % % % % % % %
 \newcommand{\abschluss}{NKT}                              % HIER UNZUTREFFENDES LÖSCHEN
 \title{\abschluss{}\\Tag 4: Generics, Vererbung, Binäre Suchbäume}                      % HIER DEN TITEL DER ARBEIT EINTRAGEN
-\author{Sven Hoops, Jonas Goudarzi}
+\author{Alexa Katharina-Ronja Brockmöller, Tobias Wrede}
 % HIER DEN NAMEN UND VORNAMEN EINTRAGEN
-\date{DATUM}                                                                % HIER DAS PRÄSENTATIONSDATUM EINTRAGEN
+\date{\today}                                                                % HIER DAS PRÄSENTATIONSDATUM EINTRAGEN
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \institute{Institut für Informatik\\Heinrich-Heine-Universität Düsseldorf}
 \subject{Informatik}
@@ -99,8 +99,10 @@
 
   % % % % % % % % % % Ab hier werden die LaTeX-Dateien der einzelnen Abschnitte eingefügt % % % % % % % % % %
 
-
+  \section{Binare Bäume}
   \input{binbäume}
+  
+  \section{Hashing}
   \input{hashing}
 
 
