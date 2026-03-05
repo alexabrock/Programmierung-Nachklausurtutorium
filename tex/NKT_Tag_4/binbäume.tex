@@ -1,5 +1,3 @@
-
-
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
@@ -23,8 +21,7 @@
 
 \lstset{style=mystyle}
 
-
-
+\section{Binäre Bäume}
 \begin{frame}[fragile]
 \frametitle{Bäume}
 \begin{center}
@@ -48,7 +45,7 @@
 
 \end{frame}
 
-
+\subsection{Binärer Suchbaum}
 \begin{frame}[fragile]
 \frametitle{Binärer Suchbaum}
 \begin{center}
@@ -118,11 +115,13 @@ class BinarySearchTree {
 }
 
 private BinaryNode root;
+}
 
 \end{lstlisting}
 
 \end{frame}
 
+\subsection{Einfügen}
 \begin{frame}[fragile]
 \frametitle{Bäume - Einfügen (Teil 1)}
 
@@ -143,9 +142,8 @@ void insert(int newNumber) {
 
 \begin{frame}[fragile]
 \frametitle{Bäume - Einfügen (Teil 2)}
-
+Baum durchsuchen
 \begin{lstlisting}[language=java,basicstyle=\ttfamily\footnotesize,breaklines=true]
-// Baum durchsuchen
 while (child != null) {
     parent = child;
     if (newNumber == child.element) {
@@ -157,7 +155,14 @@ while (child != null) {
         child = child.right;
     }
 }
-// Neue Node einfügen
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Bäume - Einfügen (Teil 3)}
+Neue Node einfügen
+\begin{lstlisting}[language=java,basicstyle=\ttfamily\footnotesize,breaklines=true]
 if (newNumber < parent.element) {
     parent.left = new BinaryNode(newNumber);
 } else {
@@ -167,7 +172,7 @@ if (newNumber < parent.element) {
 
 \end{frame}
 
-
+\subsection{Minimum finden}
 \begin{frame}[fragile]
 \frametitle{Bäume - Minimum finden}
 \begin{lstlisting}
@@ -187,7 +192,7 @@ int minimum() {
 
 \end{frame}
 
-
+\section{Exceptions}
 \begin{frame}[fragile]
 \frametitle{Einschub: Exceptions}
 \begin{lstlisting}
