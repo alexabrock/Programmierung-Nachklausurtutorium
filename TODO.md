@@ -11,7 +11,7 @@
 - [x] A Quellen-Folie: Die Quellen basieren auf den Folien von: + Auflistung der Beteiligten Markus, Sven, Jonas
 - [x] Tobi & Alexa als Authoren setzen
 - [ ] Titel aller Tage ändern auf aktualisierte Themen
-- [ ] Legacy Ordner mit alten Folien erstellen
+- [x] Legacy Ordner mit alten Folien erstellen
 
 ---
 
@@ -21,12 +21,7 @@
 - [x] A Idiomatisch Folien von Sven klauen und mit Folie 12 austauschen  
 - [x] Folie 13: besseres Array-Beispiel, eins für mehrdimensionale  
 - [x] Folie 16 und 17 an einen Tag schieben, an dem Klassen schon fertig definiert wurden  
-- [ ] classpath vs packagepath erklären  
-- [ ] Folie zu Sichtbarkeiten von Klassen (nach Klassen):  
-- [ ] Was sind sinnvolle Sichtbarkeiten (für interne Methoden, Attribute?, externe Methoden, Klassen package-private)  
-- [ ] Interfaces zu Klassen schmeißen (sind grade an Tag 3)
-- [x] Interfaces sind abstrakt → rausschmeißen  
-- [ ] Vererbung einfügen
+- [ ] classpath vs packagepath erklären   
 ---
 
 ## 🟩 Tag 2
@@ -44,8 +39,6 @@
   - [ ] bei Test-Objekt noch ergänzen, dass das auf dem Heap liegt  
   - [ ] und auf dem Stack die Referenz dafür (Grafik ergänzen)
 - [ ]  Shallow vs Deep Copy auf Arrays
-- [ ] Folie 27: Rekursionsaufgabenstellung erweitern  
-- [ ] Exceptions aus Tag 3 in Tag 2 überführen
 - [ ] Records & enums
 
 ---
