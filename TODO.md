@@ -10,6 +10,7 @@
 - [x] → Folien durchgehen und schauen, was wir noch klauen können  
 - [x] A Quellen-Folie: Die Quellen basieren auf den Folien von: + Auflistung der Beteiligten Markus, Sven, Jonas
 - [x] Tobi & Alexa als Authoren setzen
+- [ ] Titel aller Tage ändern auf aktualisierte Themen 
 
 ---
 
@@ -64,7 +65,6 @@
 - [ ] Listen erklären (Folie 18 überarbeiten)
   - [ ]  Klasse `Node` (PK 25 Code) miterklären    
   - [x] A Listen-Überschrift nicht „Linked List“, sondern „Listen“  
-  - [ ] Beispielaufgaben sind gut
   - [ ] Listentypen, und wofür sind welche gut 
 
 ---
