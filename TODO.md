@@ -10,7 +10,8 @@
 - [x] → Folien durchgehen und schauen, was wir noch klauen können  
 - [x] A Quellen-Folie: Die Quellen basieren auf den Folien von: + Auflistung der Beteiligten Markus, Sven, Jonas
 - [x] Tobi & Alexa als Authoren setzen
-- [ ] Titel aller Tage ändern auf aktualisierte Themen 
+- [ ] Titel aller Tage ändern auf aktualisierte Themen
+- [ ] Legacy Ordner mit alten Folien erstellen
 
 ---
 
