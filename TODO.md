@@ -54,10 +54,10 @@
   - [ ] hier auch Methodenreferenzen, Lambda-Ausdruck , funktionales interface
   - [ ] explizit sagen: das geht auch auf Listen, nicht nur auf Streams
 - [x]  Übersicht von Collections
-- [ ] Listen vor dem Rest
+- [x] Listen vor dem Rest
 - [x] A Listen- Bilder aus Folien Klauen (Woche 7)
 - [x] A Bei Listen auch Generics ergänzen (aus Tag 4)
-- [ ] Binäre Suche Schreenshots erneuern (Alexas Screenshot tool ist doof) (https://hsp.pages.cs.uni-duesseldorf.de/programmierung/website/assets/files/16_suchen-ilias-27e0436b262d5c8e42ac08e09e5174b9.pdf)
+- [x] Binäre Suche Schreenshots erneuern (Alexas Screenshot tool ist doof) (https://hsp.pages.cs.uni-duesseldorf.de/programmierung/website/assets/files/16_suchen-ilias-27e0436b262d5c8e42ac08e09e5174b9.pdf)
 - [ ] Binäre-Suche-Aufgaben ändern  
 - [x] A Folie 13: Nur Insertionsort & Mergesort 
   - [x] bei den ganzen Sortierverfahren auch schönere Bilder  
