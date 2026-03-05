@@ -53,19 +53,19 @@
 - [ ] Streams nach Listen
   - [ ] hier auch Methodenreferenzen, Lambda-Ausdruck , funktionales interface
   - [ ] explizit sagen: das geht auch auf Listen, nicht nur auf Streams
-- [ ]  Übersicht von Collections
+- [x]  Übersicht von Collections
 - [ ] Listen vor dem Rest
 - [x] A Listen- Bilder aus Folien Klauen (Woche 7)
 - [x] A Bei Listen auch Generics ergänzen (aus Tag 4)
 - [ ] Binäre Suche Schreenshots erneuern (Alexas Screenshot tool ist doof) (https://hsp.pages.cs.uni-duesseldorf.de/programmierung/website/assets/files/16_suchen-ilias-27e0436b262d5c8e42ac08e09e5174b9.pdf)
 - [ ] Binäre-Suche-Aufgaben ändern  
 - [x] A Folie 13: Nur Insertionsort & Mergesort 
-  - [ ] bei den ganzen Sortierverfahren auch schönere Bilder  
-  - [ ] bei MergeSort süß interaktiv mit den Studis durchspielen  
-- [ ] Listen erklären (Folie 18 überarbeiten)
-  - [ ]  Klasse `Node` (PK 25 Code) miterklären    
+  - [x] bei den ganzen Sortierverfahren auch schönere Bilder  
+  - [x] bei MergeSort süß interaktiv mit den Studis durchspielen  
+- [x] Listen erklären (Folie 18 überarbeiten)
+  - [x]  Klasse `Node` (PK 25 Code) miterklären    
   - [x] A Listen-Überschrift nicht „Linked List“, sondern „Listen“  
-  - [ ] Listentypen, und wofür sind welche gut 
+  - [x] Listentypen, und wofür sind welche gut 
 
 ---
 
