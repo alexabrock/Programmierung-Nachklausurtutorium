@@ -7,7 +7,7 @@
 - [ ] Aufgaben als Markdown  
 - [ ] Inhalte des NKT md in README updaten zu Plan von NKT  
 - [ ] Aufgaben alle austauschen mit abgeänderten Altklausuraufgaben  
-- [ ] → Folien durchgehen und schauen, was wir noch klauen können  
+- [x] → Folien durchgehen und schauen, was wir noch klauen können  
 - [x] A Quellen-Folie: Die Quellen basieren auf den Folien von: + Auflistung der Beteiligten Markus, Sven, Jonas
 - [x] Tobi & Alexa als Authoren setzen
 
