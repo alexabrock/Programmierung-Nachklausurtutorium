@@ -12,8 +12,6 @@
     captionpos=b, % Bildunterschrift unterhalb des Codes
 }
 
-\subsection{Methoden}
-
 \begin{frame}[fragile] %fragile tag benötigt, da code Listings auftreten
 \frametitle{Methoden}
 Warum überhaupt Methoden?
@@ -24,7 +22,7 @@ Warum überhaupt Methoden?
 \end{itemize}
 Beispiel für eine Methode:
 \begin{lstlisting}
-     static int sum(int a, int b){
+    public static int sum(int a, int b){
         int result = a + b;
         return result;
     }
@@ -37,13 +35,13 @@ Eine Methode besteht aus Methodenkopf und Methodenrumpf
 Der Methodenkopf ist wiefolgt aufgebaut:
 \begin{lstlisting}
   //1.     2.     3.  4.  5. 
-    static int sum(int a, int b){
+    public static int sum(int a, int b){
         int result = a + b;
         return result;
     }
 \end{lstlisting}
 \begin{itemize}
-    \item 1. Sichtbarkeit
+    \item 1. Sichtbarkeit: Ohne keyword package-private. Standard der Vorlesung
     \item 2. Kontext
     \item 3. Rückgabetyp
     \item 4. Name
@@ -64,9 +62,9 @@ Der Methodenrumpf beinhaltet die Logik der Methode. Wenn der Rückgabewert nicht
 \end{lstlisting}
 \end{frame}
 
-\subsection{Methoden Aufrufen}
+\subsection{Methodenaufruf}
 \begin{frame}[fragile]
-\frametitle{Methoden Aufrufen}
+\frametitle{Methodenaufruf}
 Um eine Methode aufzurufen brauchen wir den Namen der Methode und müssen, falls die Methode Parameter benötigt diese in der korrekten Reihenfolge übergeben.
 \begin{lstlisting}
     int a = 42;
@@ -82,7 +80,41 @@ Funktioniert nicht:
     String summe = sum(a,b);
 \end{lstlisting}
 \end{frame}
+
+\subsection{Main Methode}
 \begin{frame}[fragile]
-\frametitle{Mini Game Aufgabe}
-Falls Sie es noch nicht gemacht haben spalten sie ihr Mini Game in sinnvolle Methoden auf. Achten Sie darauf Aussagekräftige Namen zu benutzen. 
+\frametitle{Main Methode}
+Die Main Methode hat als Parameter ein \textit{String} Array. Der Inhalt des Arrays muss beim Aufruf des Programmes mit übergeben werden.
+\begin{lstlisting}
+    static void main (String[] args){
+        String msg = args[0];
+    }
+\end{lstlisting}
+Falls keine Argumente übergeben werden
+\begin{lstlisting}
+    static void main (){
+        System.out.println("Hallo Welt!");
+    }
+\end{lstlisting}
 \end{frame}
+
+\subsection{Rekursion}
+\begin{frame}[fragile]
+	\frametitle{Rekursion}
+	Was ist Rekursion?
+	\begin{itemize}
+		\item Methode, die sich selbt aufruft
+		\item benötigt Rekursionsanker
+		\item wenig code, jedoch häufig verwirrend
+	\end{itemize}
+\begin{lstlisting}
+    static void recursiveCount(int n){
+        System.out.println(n);
+        if( n <= 0){
+            return;
+        }
+        recursiveCount(n-1);
+    }
+\end{lstlisting}
+\end{frame}
+

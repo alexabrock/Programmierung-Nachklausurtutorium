@@ -1,16 +1,14 @@
 \babel@toc {ngerman}{}\relax 
 \beamer@sectionintoc {1}{Organisation}{3}{0}{1}
 \beamer@sectionintoc {2}{Basics}{8}{0}{2}
-\beamer@subsectionintoc {2}{1}{Variablendeklaration}{9}{0}{2}
-\beamer@subsectionintoc {2}{2}{Variablen}{10}{0}{2}
-\beamer@subsectionintoc {2}{3}{Datentypen}{11}{0}{2}
-\beamer@subsectionintoc {2}{4}{String Objekt}{13}{0}{2}
-\beamer@sectionintoc {3}{Kontrollstrukturen}{14}{0}{3}
-\beamer@subsectionintoc {3}{1}{Verzweigungen}{15}{0}{3}
-\beamer@subsectionintoc {3}{2}{Idiomatisch}{18}{0}{3}
-\beamer@subsectionintoc {3}{3}{Logische Operatoren}{22}{0}{3}
-\beamer@sectionintoc {4}{Arrays und Standardeingabe}{23}{0}{4}
-\beamer@subsectionintoc {4}{1}{Arrays}{24}{0}{4}
-\beamer@subsectionintoc {4}{2}{Main Method}{25}{0}{4}
-\beamer@subsectionintoc {4}{3}{Standarteingabe}{27}{0}{4}
-\beamer@sectionintoc {5}{Mini-Game}{29}{0}{5}
+\beamer@subsectionintoc {2}{1}{Variablen}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{Datentypen}{12}{0}{2}
+\beamer@subsectionintoc {2}{3}{Arrays}{15}{0}{2}
+\beamer@sectionintoc {3}{Kontrollstrukturen}{17}{0}{3}
+\beamer@subsectionintoc {3}{1}{Verzweigungen}{18}{0}{3}
+\beamer@subsectionintoc {3}{2}{Schleifen}{19}{0}{3}
+\beamer@subsectionintoc {3}{3}{Idiomatisch}{22}{0}{3}
+\beamer@sectionintoc {4}{Methoden}{26}{0}{4}
+\beamer@subsectionintoc {4}{1}{Methodenaufruf}{30}{0}{4}
+\beamer@subsectionintoc {4}{2}{Main Methode}{31}{0}{4}
+\beamer@subsectionintoc {4}{3}{Rekursion}{32}{0}{4}

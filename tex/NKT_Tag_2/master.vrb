@@ -1,8 +1,13 @@
-\frametitle{Mini-Game}
-	Entwickeln sie ihr Game weiter:
-	\begin{enumerate}
-		\item Erstellen sie eine Klasse \textit{Item}, welches einen Namen und eine Anzahl hat (Überlegen sie was sinnvoll ist, vielleicht toString() Methode überschreiben?)
-		\item Ihr Inventar soll nun Item-Objekte Speichern
-		\item passen sie die einzelnen Funktionen an (\textit{add}, \textit{find},\textit{use}), sodass diese mit Item-Objekten funktionieren
-		\item werden sie kreativ
-	\end{enumerate}
+\frametitle{Referenzen}
+	\begin{lstlisting}
+	Person a = new Person();
+	Person b = new Person();
+    System.out.println(a == b);
+	\end{lstlisting}
+	Wird true oder false ausgegeben?
+	\newline
+	$\rightarrow$ Es wird false ausgegeben
+	\begin{lstlisting}
+	System.out.println(a);        //Person@7ad041f3
+	System.out.println(b);        //Person@251a69d7 	
+	\end{lstlisting}

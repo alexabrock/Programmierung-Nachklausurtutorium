@@ -12,7 +12,24 @@
     captionpos=b, % Bildunterschrift unterhalb des Codes
 }
 
-\subsection{Variablendeklaration}
+\begin{frame}[fragile] %fragile tag benötigt, da code Listings auftreten
+\frametitle{Kompilieren}
+
+\begin{itemize}
+\item Kompilieren
+    \begin{itemize}
+        \item Quellcode wird in Bytecode übersetzt
+        \item Überprüfung, ob Regeln der Sprache eingehalten wurden
+    \end{itemize}
+\item Java Programm kompilieren und ausführen
+\begin{itemize}
+        \item java Programmname.java
+    \end{itemize} 
+\end{itemize}
+    
+\end{frame}
+
+\subsection{Variablen}
 
 \begin{frame}[fragile] %fragile tag benötigt, da code Listings auftreten
 \frametitle{Variablendeklaration}
@@ -27,8 +44,6 @@ Um eine Variable anzulegen benötigen wir einen Datentypen und einen Namen. Das 
 primitive Variablen, die nur deklariert wurden, kriegen einen Standardwert zugewiesen. Bei \textit{int} ist dieser beispielsweise 0
     
 \end{frame}
-
-\subsection{Variablen}
 
 \begin{frame}[fragile]
 \frametitle{Variableninitialisierung}
@@ -77,14 +92,13 @@ Welche primitiven Datentypen gibt es?
     \item Beispiele
     \begin{itemize}
         \item String
-        \item java.awt.Color 
-        \item (Arrays)
+        \item List 
+        \item Arrays
         \item eigene Klassen
+        \item ...
     \end{itemize}
 \end{itemize}
 \end{frame}
-
-\subsection{String Objekt}
 
 \begin{frame}[fragile]
 \frametitle{Die String Klasse}
@@ -95,5 +109,34 @@ Welche primitiven Datentypen gibt es?
 \begin{lstlisting}
     String msg = "dies ist ein String!";
     String msg2 = msg.toUpperCase();
+\end{lstlisting}
+\end{frame}
+
+\subsection{Arrays}
+\begin{frame}[fragile]
+\frametitle{Arrays}
+Was ist ein Array?
+\begin{itemize}
+    \item speichert eine genaue Anzahl an Variablen desselben Datentypes
+    \item hat eine feste Größe (nicht dynamisch erweiterbar)
+    \item nicht initialiserte Felder kriegen einen Standardwert oder null zugewiesen
+    \item indices für schnellen Zugriff
+    \item wird von Java wie ein Objekt behandelt $\rightarrow$ liegt auf dem Heap
+\end{itemize}
+\begin{lstlisting}
+    int[] array1 = new int[5];
+    String[] array2 = {"A","R","R","A","Y"};
+    System.out.println(array2[0]); // gibt "A" aus
+    array1[3] = 42; // array1 = [0,0,0,42,0]
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Mehrdimenionale Arrays}
+Arrays können auch mehrdimensional sein. Das bedeutet, dass wir Arrays von Arrays haben können. Ein zweidimensionales Array könnte beispielsweise so aussehen:
+\begin{lstlisting}
+    int[][] matrix = {{1, 2},{3, 4},{5, 6}};
+    System.out.println(matrix[2][0]); // gibt 5 aus
+
 \end{lstlisting}
 \end{frame}

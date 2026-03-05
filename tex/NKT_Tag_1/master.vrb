@@ -1,16 +1,16 @@
-\frametitle{Beispielaufrufe}
+\frametitle{Rekursion}
+	Was ist Rekursion?
+	\begin{itemize}
+		\item Methode, die sich selbt aufruft
+		\item benötigt Rekursionsanker
+		\item wenig code, jedoch häufig verwirrend
+	\end{itemize}
 \begin{lstlisting}
-    $ status
-    Level: 1
-    HP: 100
-    Stamina: 50
-    $ explore
-    Du findest einen Heiltrank!
-    $ add Heiltrank 10
-    Heiltrank wurde an Slot 10 hinzugefuegt!
-    $ use Heiltrank
-    Du hast einen Heiltrank benutzt und 20 HP wiederhergestellt!
-    $ attack
-    Du greifst den Goblin an und verursachst 15 Schaden!
-    Der Goblin greift dich an und verursacht 10 Schaden!
+    static void recursiveCount(int n){
+        System.out.println(n);
+        if( n <= 0){
+            return;
+        }
+        recursiveCount(n-1);
+    }
 \end{lstlisting}

@@ -94,3 +94,39 @@ Da ein String ein Objekt ist, also kein Primitiver Datentyp können wir Strings 
     System.out.println(a.equals(b));
 \end{lstlisting}
 \end{frame}
+
+\subsection{Standarteingabe}
+\begin{frame}[fragile]
+\frametitle{Standardeingabe}
+Wir können auch die Standardeingabe benutzen, um unser Programm mit Daten aufzurufen.
+Dafür benötigen wir Scanner:
+\begin{lstlisting}
+ import java.util.Scanner;
+ class Wuerfel {
+    static void main(String[] args) {
+        Scanner stdin = new Scanner(System.in);
+        while(stdin.hasNext()){
+            int number = Integer.parseInt(stdin.nextLine());
+            while(number > 0){
+                for(int i = 0; i < number; i++){
+                    System.out.print("*");
+                }
+                number--;
+                System.out.println();
+\end{lstlisting}    
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Scanner \& Dateien}
+Wir können Scanner aber auch auf spezifische Dateien setzen. Dafür brauchen wir jedoch den Dateipfad.
+\begin{lstlisting}
+    Scanner scanner = new Scanner(dateipfad);
+\end{lstlisting}
+Achtung! Wenn an diesem Pfad keine Datei liegt, wird unser Programm abstürzen. Wir sollten deshalb einen \textit{try-catch} Block benutzen:
+\begin{lstlisting}
+    try{
+        Scanner scanner = new Scanner("/NKT/wichtigeDatei.txt");
+    } catch(Exception e){
+        e.printStacktrace();
+    }
+\end{lstlisting}
+\end{frame}

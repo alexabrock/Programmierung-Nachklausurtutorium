@@ -17,6 +17,8 @@
 
 \end{frame}
 
+\subsection{Schleifen}
+
 \begin{frame}[fragile]
 \frametitle{Schleifen - While}
 \begin{lstlisting}
@@ -52,6 +54,25 @@
 \begin{itemize}
     \item hierbei bitte aufpassen. Mit der \textit{for-each} Schleife kann nicht der Inhalt des Arrays geändert werden. Dies hat Performance Gründe
 \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Logische Operatoren}
+Logische Operatoren werden in Schleifenköpfen benötigt. Die Bedingung dafür, wie lange die Schleife läuft, ist also ein komplexer logischer Operator:
+\begin{itemize}
+    \item \texttt{||}
+    \item \texttt{\&\&}
+    \item \texttt{==}
+    \item \texttt{<} oder \texttt{>}
+    \item \texttt{<=} oder \texttt{>=}
+    \item \texttt{|}
+    \item \texttt{\&}
+\end{itemize}
+\begin{lstlisting}
+    if(v + 42 <= 69){
+        // do X
+    }
+\end{lstlisting}
 \end{frame}
 
 \subsection{Idiomatisch}
@@ -127,25 +148,5 @@ public static void printList(List<Integer> list) {
 \begin{itemize}
     \item Sollten wir diesen ändern?
 \end{itemize}
-\end{frame}
-
-\subsection{Logische Operatoren}
-\begin{frame}[fragile]
-\frametitle{Logische Operatoren}
-Logische Operatoren werden in Schleifenköpfen benötigt. Die Bedingung dafür, wie lange die Schleife läuft, ist also ein komplexer logischer Operator:
-\begin{itemize}
-    \item \texttt{||}
-    \item \texttt{\&\&}
-    \item \texttt{==}
-    \item \texttt{<} oder \texttt{>}
-    \item \texttt{<=} oder \texttt{>=}
-    \item \texttt{|}
-    \item \texttt{\&}
-\end{itemize}
-\begin{lstlisting}
-    if(v + 42 <= 69){
-        // do X
-    }
-\end{lstlisting}
 \end{frame}
 
