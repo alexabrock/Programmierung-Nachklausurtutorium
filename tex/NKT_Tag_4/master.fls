@@ -429,6 +429,9 @@ INPUT .\appendixnumberbeamer.sty
 INPUT appendixnumberbeamer.sty
 INPUT C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\master.aux
+INPUT .\master.aux
+INPUT master.aux
 OUTPUT master.aux
 INPUT C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii

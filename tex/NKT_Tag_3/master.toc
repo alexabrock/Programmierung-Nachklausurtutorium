@@ -1,8 +1,6 @@
 \babel@toc {ngerman}{}\relax 
 \beamer@sectionintoc {1}{Interfaces}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Interfaces}{4}{0}{1}
-\beamer@sectionintoc {2}{Binäre Suche}{9}{0}{2}
-\beamer@sectionintoc {3}{Sortieralgorithmen}{15}{0}{3}
-\beamer@sectionintoc {4}{Verkettete Listen}{22}{0}{4}
-\beamer@sectionintoc {5}{Generics}{26}{0}{5}
-\beamer@subsectionintoc {5}{1}{super}{27}{0}{5}
+\beamer@sectionintoc {2}{Listen}{9}{0}{2}
+\beamer@sectionintoc {3}{Binäre Suche}{16}{0}{3}
+\beamer@sectionintoc {4}{Sortieralgorithmen}{22}{0}{4}
+\beamer@sectionintoc {5}{Generics}{29}{0}{5}
