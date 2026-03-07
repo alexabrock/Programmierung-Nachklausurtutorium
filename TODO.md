@@ -4,9 +4,9 @@
 
 ## 🌍 Global
 - [x] A global: überall public vor den Methoden & Klassen entfernen  
-- [ ] Aufgaben als Markdown  
+- [x] Aufgaben als Markdown  
 - [ ] Inhalte des NKT md in README updaten zu Plan von NKT  
-- [ ] Aufgaben alle austauschen mit abgeänderten Altklausuraufgaben  
+- [x] Aufgaben alle austauschen mit abgeänderten Altklausuraufgaben  
 - [x] → Folien durchgehen und schauen, was wir noch klauen können  
 - [x] A Quellen-Folie: Die Quellen basieren auf den Folien von: + Auflistung der Beteiligten Markus, Sven, Jonas
 - [x] Tobi & Alexa als Authoren setzen
@@ -27,10 +27,10 @@
 ## 🟩 Tag 2
 - [ ] Folie zu Sichtbarkeiten von Klassen (nach Klassen):  
   - [ ] Was sind sinnvolle Sichtbarkeiten (für interne Methoden, Attribute?, externe Methoden, Klassen package-private)  
-- [ ] Klausurnahes Klassenbeispiel  
+- [x] Klausurnahes Klassenbeispiel  
 - [ ] Interfaces zu Klassen schmeißen  
   - [ ] Interfaces sind abstrakt → rausschmeißen  
-- [ ] Vererbung einfügen (Woche 6) – declared type und actual type?  
+- [ ] Vererbung einfügen (Woche 6) – declared type und actual type?  (kann sehr kurz sein, kam noch nie dran)
 - [ ] Folie 7: Mini-Aufgabe Erweiterung von Tag 1 raus  
 - [ ] Folie 8: Die Folie ist Quatsch, Klassen besser einführen  
   - [ ] Klassen haben Attribute, Methoden usw.  
@@ -52,7 +52,7 @@
 - [x] A Listen- Bilder aus Folien Klauen (Woche 7)
 - [x] A Bei Listen auch Generics ergänzen (aus Tag 4)
 - [x] Binäre Suche Schreenshots erneuern (Alexas Screenshot tool ist doof) (https://hsp.pages.cs.uni-duesseldorf.de/programmierung/website/assets/files/16_suchen-ilias-27e0436b262d5c8e42ac08e09e5174b9.pdf)
-- [ ] Binäre-Suche-Aufgaben ändern  
+- [x] Binäre-Suche-Aufgaben ändern  
 - [x] A Folie 13: Nur Insertionsort & Mergesort 
   - [x] bei den ganzen Sortierverfahren auch schönere Bilder  
   - [x] bei MergeSort süß interaktiv mit den Studis durchspielen  
@@ -72,7 +72,7 @@
 - [x] A Folie 3: O(1) ist Quatsch, Ziel: `contains()` geht schnell  
 - [x] A Folie 5: nicht Knotenwert, sondern Wurzel  
 - [x] Folien 7–10: Code vergrößern
-- [ ] Fix Gliederung,  die nicht rendert
+- [x] Fix Gliederung,  die nicht rendert
 
 ---
 
