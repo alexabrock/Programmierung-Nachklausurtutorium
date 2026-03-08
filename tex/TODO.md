@@ -5,7 +5,7 @@
 ## 🌍 Global
 - [x] A global: überall public vor den Methoden & Klassen entfernen  
 - [x] Aufgaben als Markdown  
-- [ ] Inhalte des NKT md in README updaten zu Plan von NKT  
+- [x] Inhalte des NKT md in README updaten zu Plan von NKT  
 - [x] Aufgaben alle austauschen mit abgeänderten Altklausuraufgaben  
 - [x] → Folien durchgehen und schauen, was wir noch klauen können  
 - [x] A Quellen-Folie: Die Quellen basieren auf den Folien von: + Auflistung der Beteiligten Markus, Sven, Jonas
@@ -21,7 +21,7 @@
 - [x] A Idiomatisch Folien von Sven klauen und mit Folie 12 austauschen  
 - [x] Folie 13: besseres Array-Beispiel, eins für mehrdimensionale  
 - [x] Folie 16 und 17 an einen Tag schieben, an dem Klassen schon fertig definiert wurden  
-- [ ] classpath vs packagepath erklären   
+- [x] classpath vs packagepath erklären   
 ---
 
 ## 🟩 Tag 2
