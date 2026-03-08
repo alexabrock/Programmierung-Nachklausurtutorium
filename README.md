@@ -2,38 +2,39 @@
 
 Jeden Tag von Montag den 09.03.2026 bis Freitag den 13.03.2026 von 10:30 bis 14:00 Uhr im Hörsaal 5H.
 
-- **Inhalte des Nachklausurtutorium**
-- **Kapitel 1: Grundlagen**
-  - Variabeln & Datentypen
+- **Nachklausurtutorium Inhalte**
+
+- **Kapitel 1: Programmiergrundlagen**
+  - Variablen & Datentypen
+  - Arrays
   - Verzweigungen
   - Schleifen
+  - Idiomatische Programmierung
   - Methoden
-  - Stack, Rekursion
-- **Kapitel 2: Objekte**
-  - Arrays
-  - Objekte
-  - Strings
-- **Kapitel 3: Eigene Klassen**
-  - Eigene Klassen schreiben
+  - Rekursion
+
+- **Kapitel 2: Objektorientierte Programmierung**
+  - Klassen
   - Interfaces 
   - Vererbung
-  - Überschreiben
-- **Kapitel 4: Dynamische Datenstrukturen & Performance**
-  - Einfach verkettete Listen
+  - Überschreiben von Methoden
+
+- **Kapitel 3: Wichtige Werkzeuge & Algorithmen**
+  - Streams & Higher-Order Functions
+  - Listen
+  - Binäre Suche
+  - Sortieralgorithmen
   - Generics
-  - Suchen
-  - Sortieren
-  - Comparable
-  - Binäre Suchbäume
-  - Hashsets
-  - Datenstrukturen im Vergleich
-- **Kapitel 5: Klassenbibliothek**
-  - Packages & Classpath
+
+- **Kapitel 4: Dynamische Datenstrukturen**
+  - Binäre Bäume
   - Exceptions
-  - Standardeingabe & Pipelining
-  - Higher Order Functions 
-  - Stream-API (Collections.stream(), map, filter, forEach)
-- **Kapitel 6: Klausurtraining mit Altklausuren**
+  - Hashing
+
+- **Kapitel 5: Klausurvorbereitung**
+  - Klausurtraining mit Altklausuren
+  - Offene Fragen & Wunschthemen
+
 
 # Altklausuren
 
