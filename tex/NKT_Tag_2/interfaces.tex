@@ -16,14 +16,16 @@
 \frametitle{Interfaces}
 Was sind Interfaces?
 \begin{itemize}
+    \item Von Interfaces können keine Objekte erstellt werden
+    \item Sie beschreiben die Schnittstelle einer Klasse, d.h. welche Methoden sie besitzen muss
     \item können von Klassen implementiert werden
     \item schreiben Klassen vor, welche Methoden sie besitzen müssen
     \item eine Klasse kann beliebig viele Interfaces implementieren
-    \item ein Objekt A, welches ein Interface B implementiert, ist eine Instanz von A, sowie auch von B
+    \item Methoden in Interfaces sind standardmäßig public und abstract, d.h. sie müssen von der Klasse implementiert werden
 \end{itemize}
 Beispiel für ein Interface:
 \begin{lstlisting}
-    interface Sortable{
+    interface Item {
         double weight();
     }
 \end{lstlisting}\footnote{\textit{public} ist in Methoden, die von einem Interface vorgeschrieben werden nicht nötig}
@@ -33,19 +35,17 @@ Beispiel für ein Interface:
 \frametitle{Interface implementieren}
 Wie implementiert man ein Interface?
 \begin{lstlisting}
-    public class Item implements Sortable{
+    public class Schwert implements Item{
         //inhalt der Klasse
     }
 \end{lstlisting}
-Nun muss die Klasse Item eine Methode \textit{weight()} implementieren, die einen \textit{double} zurück gibt.
-\newline
-Wir schreiben nun also vor, dass jedes Objekt, welches eine Instanz von Sortable ist, eine bestimmte Logik hat
+Nun muss die Klasse Schwert eine Methode \textit{weight()} implementieren, die einen \textit{double} zurück gibt.
 \end{frame}
 
 \begin{frame}[fragile]
 \frametitle{Interface Klasse A}
 \begin{lstlisting}
-    class Schwert implements Sortable{
+    class Schwert implements Item{
         String name;
         static final double WEIGHT = 7;
         Schwert(String name){
@@ -61,7 +61,7 @@ Wir schreiben nun also vor, dass jedes Objekt, welches eine Instanz von Sortable
 \begin{frame}[fragile]
 \frametitle{Interface Klasse B}
 \begin{lstlisting}
-    class Heiltrank implements Sortable {
+    class Heiltrank implements Item {
         String name;
         int count;
         static final double WEIGHT = 2.5;
@@ -77,11 +77,10 @@ Wir schreiben nun also vor, dass jedes Objekt, welches eine Instanz von Sortable
 \end{frame}
 
 \begin{frame}[fragile]
-\frametitle{Interfaces}
-Da Objekte der Klasse A, wie auch Objekte der Klasse B ebenfalls Instanzen von \textit{Sortable} sind können wir diese nun auch so speichern. Wir können also ein Array von \textit{Sortable} Objekten anlegen, und deshalb darauf vertrauen, dass jedes Objekt die Methode \textit{weight()} implementiert.
-\begin{lstlisting}
-    Sortable[] inventory = new Sortable[3*9];
-    inventory[0] = (Sortable) new Schwert("Excalibur");
-\end{lstlisting}
-Wobei hilft uns das noch?
+\frametitle{Abstrakte Klassen}
+\begin{itemize}
+    \item Abstrakte Klassen können nicht instanziiert werden, können aber Methoden implementieren. 
+    \item Sie können auch abstrakte Methoden enthalten, die von Unterklassen implementiert werden müssen.
+    \item Unterklassen von abstrakten Klassen müssen alle abstrakten Methoden implementieren, es sei denn, sie sind selbst abstrakt.
+\end{itemize}
 \end{frame}

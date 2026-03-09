@@ -1,11 +1,12 @@
 \babel@toc {ngerman}{}\relax 
 \beamer@sectionintoc {1}{Objekte und Klassen}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Klassen}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Überladen von Methoden}{7}{0}{1}
-\beamer@subsectionintoc {1}{3}{Überschreiben von Methoden}{8}{0}{1}
-\beamer@subsectionintoc {1}{4}{String Klasse}{9}{0}{1}
-\beamer@subsectionintoc {1}{5}{Standarteingabe}{10}{0}{1}
-\beamer@sectionintoc {2}{Stack}{12}{0}{2}
-\beamer@subsectionintoc {2}{1}{Heap und Stack}{13}{0}{2}
-\beamer@subsectionintoc {2}{2}{Stack}{14}{0}{2}
-\beamer@subsectionintoc {2}{3}{Heap}{16}{0}{2}
+\beamer@subsectionintoc {1}{2}{Überladen von Methoden}{9}{0}{1}
+\beamer@subsectionintoc {1}{3}{Scanner}{12}{0}{1}
+\beamer@sectionintoc {2}{Vererbung}{15}{0}{2}
+\beamer@subsectionintoc {2}{1}{Klasse Object}{17}{0}{2}
+\beamer@subsectionintoc {2}{2}{Überschreiben von Methoden}{18}{0}{2}
+\beamer@sectionintoc {3}{Interfaces}{21}{0}{3}
+\beamer@sectionintoc {4}{Heap und Stack}{27}{0}{4}
+\beamer@subsectionintoc {4}{1}{Stack}{29}{0}{4}
+\beamer@subsectionintoc {4}{2}{Heap}{31}{0}{4}

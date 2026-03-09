@@ -4,98 +4,139 @@
 \begin{frame}[fragile]
 \frametitle{Klassen}
 \begin{itemize}
-    \item Eine Klasse kann erstellt werden
-    \item Die erstellte Klasse wird Objekt genannt
-    \item Welche Methoden auf dem Objekt aufgerufen werden können, steht in der Klasse.\newline Klasse $\rightarrow$ Bauplan für Objekt
-    \item Es kann nur EINE Klasse mit dem Namen X geben, jedoch unendlich viele Objekte der Klasse X
-    \item Alle Klassen erben von der Klasse Object (Vererbung kommt später)
+    \item Eine Klasse definiert einen Datentyp
+    \item beinhaltet Attribute (Zustand)
+    \item enthält Methoden (Verhalten)
+    \item Mit new können wir Objekte von Klassen erstellen
+\end{itemize}
+\begin{lstlisting}
+    Person p1 = new Person();
+    Person p2 = new Person("Superman");
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Klassenattribute}
+\begin{lstlisting}
+    class Person {
+        private String name = "Kein Name";
+        private int alter;
+    }
+\end{lstlisting}
+\begin{itemize}
+    \item Attribute beschreiben den Zustand eines Objektes
+    \item Zugriff auf Attribute über Methoden (Getter und Setter)
+    \item Schlüsselwort final: Attribut kann nur einmal zugewiesen werden
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
 \frametitle{Methoden in Klassen}
 \begin{itemize}
-    \item Wollen wir ein Objekt einer Klasse erstellen benutzen wir das Schlüsselwort "new". (Deswegen bitte keine variablen "new" nennen!)
-    \item Falls wir keinen Konstruktor selbst schreiben, existiert Default Konstuktor
-    \item Da jede Klasse von Object erbt, hat auch jedes Objekt eine toString() Methode
-    \item Methodennamen Werden im UpperCamelCase benannt
+    \item Eine Methode zur Konstruktion eines Objektes: Konstruktor
+    \item Wird nach new aufgerufen
+    \item Konstruktoren haben den selben Namen wie die Klasse
+    \item Wenn kein Konstruktor definiert ist, wird ein ein leerer Konstruktor erstellt
+    \item Innerhalb von Methoden kann auf das Objekt mit this zugegriffen werden
+    \item Setter und Getter kontrollieren den Zugriff auf Attribute
 \end{itemize}
-Wie müsste die Person Klasse aussehen, damit folgendes funktioniert?
-\begin{lstlisting}
-    Person p1 = new Person();
-    Person p2 = new Person("Superman");
-    System.out.println(p1.toString() + "," + p2.toString());
-    //Ausgabe soll "Kein Name,Superman" sein
-\end{lstlisting}
-
 \end{frame}
 
 \begin{frame}[fragile]
-\frametitle{Klassen}
+\frametitle{Methoden in Klassen}
 \begin{lstlisting}
     class Person {
-        String name = "Kein Name";
-        Person(){}
-        Person(String name){
+        private String name = "Kein Name";
+        private int alter;
+
+        Person(String name, int alter){
             this.name = name;
+            this.alter = alter;
         }
-        @Override
-        public String toString(){
+        String getName(){
             return name;
+        }
+        void setName(String name){
+            this.name = name;
         }
     }
 \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Sichbarkeiten}
+\begin{itemize}
+    \item public: Sichtbar für alle Klassen
+    \item private: Nur in der Klasse selbst sichtbar
+    \item protected: Nur die Klasse selbst und Unterklassen sichtbar
+    \item package-private (nichts): Nur für Klassen im selben Package (Ordner) sichtbar
+\end{itemize}
 \end{frame}
 
 \subsection{Überladen von Methoden}
 \begin{frame}[fragile]
 \frametitle{Methoden Überladen}
-In Java können wir Methoden überladen. Dies haben wir bereits in der Person Klasse getan. Der Konstruktor existiert zwei mal. Einmal als Default Konstruktor und einmal als Konstruktor der einen Namen für die Person entgegen nimmt und diesen Speichert. Überladen ist sehr hilfreich:
+Überladen: Mehrere Methoden mit dem selben Namen, aber unterschiedlichen Parametern. Auch bei Konstruktoren möglich.
 \begin{lstlisting}
     int sum(int a, int b) {
         return a + b;
-    }
+        }
 
     double sum(double a, double b) {
         return a + b;
-    }
+        }
+
 \end{lstlisting}
 Nun können wir die Methode sum mit int wie auch mit double verwenden.
 \end{frame}
 
-\subsection{Überschreiben von Methoden}
 \begin{frame}[fragile]
-\frametitle{Überschreiben von Methoden}
-Das Überschreiben von Methoden wirft im Gegensatz zum Überladen die alte Methode weg. Es existieren also nur Methoden, die nicht überschrieben wurden.
-In unserem Person Beispiel haben wir die toString() Methode, die wir von Object geerbt haben, überschrieben. Wenn wir nun auf den Person Objekten die toString() Methode aufrufen wird nun unsere neue Methode genutzt, da die Alte überschrieben ist.
+\frametitle{Klassenattribute und Klassenmethoden}
+\begin{itemize}
+    \item Schlüsselwort static: Attribut oder Methode gehört zur Klasse, nicht zum Objekt
+    \item Zugriff auf statische Attribute und Methoden über Klassenname
+    \item Beispiel: Math.PI, Math.sqrt()
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Records und Enums}
+Enums:  Aufzählungsklasse, definiert eine feste Menge von Konstanten
 \begin{lstlisting}
-    @Override
-    public String toString(){
-        return name;
+enum Seasons {
+    WINTER,
+    SPRING,
+    SUMMER,
+    AUTUMN;
+}
+\end{lstlisting}
+Records:  Klasse, die nur Daten enthält
+\begin{itemize}
+    \item besitzt Getter und Konstruktor, sowie final Attribute
+    \item Konstruktor setzt standardmäßig alle Attribute, kann aber auch überschrieben werden
+\end{itemize}
+\begin{lstlisting}
+record Person(String name, int alter) {}
+\end{lstlisting}
+\end{frame}
+
+\subsection{Scanner}
+\begin{frame}[fragile]
+\frametitle{Scanner \& Dateien}
+Wir können Scanner aber auch auf spezifische Dateien setzen. Dafür brauchen wir jedoch den Dateipfad.
+\begin{lstlisting}
+    Scanner scanner = new Scanner(dateipfad);
+\end{lstlisting}
+Achtung! Wenn an diesem Pfad keine Datei liegt, wird unser Programm abstürzen. Wir sollten deshalb einen \textit{try-catch} Block benutzen:
+\begin{lstlisting}
+    try{
+        Scanner scanner = new Scanner("/NKT/wichtigeDatei.txt");
+    } catch(Exception e){
+        e.printStacktrace();
     }
-\end{lstlisting}\footnote{@Override Annotation nicht nötig, dennoch sinnvoll}
-Was wäre Ausgegeben worden, wenn wir die toString() Methode nicht überschrieben hätten?
-\end{frame}
-
-\subsection{String Klasse}
-\begin{frame}[fragile]
-\frametitle{Methoden der String Klasse}
-Ein Beispiel für eine bereits bestehende Klasse ist die String Klasse.
-\begin{lstlisting}
-    String msg = "funnymsg,          irgendwas";
-    String msgBig = msg.toUpperCase();
-    String[] msgSplit = msg.split(",");
-    String msgTrim = msgSplit[1].trim();
-\end{lstlisting}
-Da ein String ein Objekt ist, also kein Primitiver Datentyp können wir Strings nicht mit == vergleichen. Damit vergleichen wir nur ob die Referez die selbe ist, oder nicht. Wie vergleichen wir nun also Strings?
-\begin{lstlisting}
-    String a = "Hallo";
-    String b = "Welt";
-    System.out.println(a.equals(b));
 \end{lstlisting}
 \end{frame}
 
-\subsection{Standarteingabe}
 \begin{frame}[fragile]
 \frametitle{Standardeingabe}
 Wir können auch die Standardeingabe benutzen, um unser Programm mit Daten aufzurufen.
@@ -115,18 +156,102 @@ Dafür benötigen wir Scanner:
                 System.out.println();
 \end{lstlisting}    
 \end{frame}
+
 \begin{frame}[fragile]
-\frametitle{Scanner \& Dateien}
-Wir können Scanner aber auch auf spezifische Dateien setzen. Dafür brauchen wir jedoch den Dateipfad.
+\frametitle{Shallow und Deep Copy}
+\begin{itemize}
+    \item Object.clone kopiert ein Objekt.
+    \item Erstellt bei Arrays nur eine shallow copy, d.h. die Referenzen auf die Elemente werden kopiert, nicht die Elemente selbst.
+    \item Klappt somit nur bei primitivan oder immutable Datentypen
+    \item Eine Deep Copy erstellt eine neue Instanz eines Objektes, inklusive aller Objekte, auf die es referenziert.
+    \item Deep Copy muss manuell implementiert werden
+\end{itemize}
+
+\end{frame}
+
+\section{Vererbung}
+
+\begin{frame}[fragile]
+\frametitle{Vererbung}
+\begin{itemize}
+\item Eine Klasse kann von einer anderen Klasse erben, um deren nicht private Attribute und Methoden zu nutzen. 
+\item Schlüsselwort: extends
+\item Jede Klasse kann nur von einer Klasse erben
+\item Zugriff auf Oberklasse mit Schlüsselwort super
+\item Im Konstruktor der Unterklasse muss der Konstruktor der Oberklasse mit super() aufgerufen werden
+\end{itemize}
 \begin{lstlisting}
-    Scanner scanner = new Scanner(dateipfad);
-\end{lstlisting}
-Achtung! Wenn an diesem Pfad keine Datei liegt, wird unser Programm abstürzen. Wir sollten deshalb einen \textit{try-catch} Block benutzen:
-\begin{lstlisting}
-    try{
-        Scanner scanner = new Scanner("/NKT/wichtigeDatei.txt");
-    } catch(Exception e){
-        e.printStacktrace();
+    class Student extends Person {
+        private String matrikelnummer;
     }
 \end{lstlisting}
+Student erbt von Person, hat also die Attribute name und alter sowie die Methoden getName()
+\end{frame}
+
+\subsection{Klasse Object}
+\begin{frame}[fragile]
+\frametitle{Klasse Object}
+\begin{itemize}
+\item Die Klasse Object ist die Basisklasse für alle Klassen in Java. 
+\item Alle Klassen erben standardmäßig von Object.
+\item Object hat einige wichtige Methoden, die von allen Klassen geerbt werden: 
+\begin{itemize}
+\item toString()
+\item equals()
+\item hashCode()
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\subsection{Überschreiben von Methoden}
+\begin{frame}[fragile]
+\frametitle{Überschreiben von toString()}
+\begin{itemize}
+\item Eine geerbte Methode, kann in der Unterklassen eine andere Funktionalität erhalten. Dafür wird diese überschrieben.
+\item In unserem Person Beispiel haben wir die toString() Methode, die wir von Object geerbt haben, überschrieben. 
+\item Wenn wir nun auf den Person Objekten die toString() Methode aufrufen wird nun unsere neue Methode genutzt, da die Alte überschrieben ist.
+\end{itemize}
+\begin{lstlisting}
+    @Override
+    public String toString(){
+        return name;
+    }
+\end{lstlisting}
+\footnote{@Override Annotation nicht nötig, dennoch sinnvoll}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{equals-Methode}
+==:
+\begin{itemize} 
+\item Vergleicht Werte von primitiven Datentypen
+\item Vergleicht bei Objekten die Referenzen, also ob beide Variablen auf dasselbe Objekt zeigen
+\end{itemize}
+
+
+equals(): 
+\begin{itemize}
+\item Methode der Klasse Object, kann von Klassen überschrieben werden, um den Vergleich von Objekten zu ermöglichen
+          
+\item Standardmäßig als == definiert, jedocch überschreibbar
+          
+\item Beispiel: String Klasse überschreibt equals(), um den Vergleich von Strings zu ermöglichen
+\end{itemize}
+\begin{lstlisting}
+    String a = "Hallo";
+    String b = "Hallo";
+    System.out.println(a.equals(b)); // True
+    System.out.println(a == b); // False
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{declared type vs. actual type}
+\begin{itemize}
+\item Einer Variablen kann nicht nur der Wert des deklarierten Typs zugewiesen werden, sondern auch der Wert eines Untertyps.
+\item Beispiel: Person p = new Student(); declared type: Person, actual type: Student
+\item p ist vom Typ Person, aber tatsächlich eine Instanz von Student.
+\item Methodenaufrufe auf p nutzen die Methoden von Student, wenn sie überschrieben wurden, da die tatsächliche Instanz von Student ist.
+\item Es lassen sich jedoch nur Methoden aufrufen, die im deklarierten Typ (Person) definiert sind 
+\end{itemize}
 \end{frame}
