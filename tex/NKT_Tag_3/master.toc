@@ -1,6 +1,6 @@
 \babel@toc {ngerman}{}\relax 
-\beamer@sectionintoc {1}{Interfaces}{3}{0}{1}
-\beamer@sectionintoc {2}{Listen}{9}{0}{2}
-\beamer@sectionintoc {3}{Binäre Suche}{16}{0}{3}
-\beamer@sectionintoc {4}{Sortieralgorithmen}{22}{0}{4}
-\beamer@sectionintoc {5}{Generics}{29}{0}{5}
+\beamer@sectionintoc {1}{Listen}{3}{0}{1}
+\beamer@sectionintoc {2}{Binäre Suche}{10}{0}{2}
+\beamer@sectionintoc {3}{Sortieralgorithmen}{14}{0}{3}
+\beamer@sectionintoc {4}{Generics}{21}{0}{4}
+\beamer@sectionintoc {5}{Higher Order Functions und Streams}{26}{0}{5}

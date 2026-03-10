@@ -1,0 +1,54 @@
+\section{Higher Order Functions und Streams}
+
+\begin{frame}[fragile]
+\frametitle{Higher Order Functions}
+Higher Order Function (HOF):
+\begin{itemize}
+    \item Eine Funktion, die andere Funktionen als Parameter entgegennehmen oder Funktionen zurückgeben
+    \item Beispiele: map,forEach auf Collections
+    \item Datentyp von Funktionen sind funktionale Interfaces
+    \item Funktionale Interfaces: Interfaces mit genau einer abstrakten Methode
+    \item Für Funktionen mit einem Parameter und einem Rückgabewert gibt es das funktionale Interface \textit{Function<E,A>}:
+\end{itemize}
+
+\begin{lstlisting}
+    interface Function<E,A> {
+    A run(E input);
+    }
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Lambda-Ausdrücke}
+\begin{itemize}
+    \item Kurzschreibweise einer Funktion, um diese leicht als Parameter zu übergeben
+    \item Syntax: (Parameter) -> \{Anweisungen\}
+\end{itemize}
+
+\begin{lstlisting}
+    Function<Integer, String> f1 = (Integer n) -> {
+    return "#" + n;
+    };
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Streams}
+\begin{itemize}
+    \item Datenstrom
+    \item Lässt sich bei Collections durch Aufruf von \textit{stream()} erzeugen
+    \item verschiedene Operationen auf Streams: 
+    \begin{itemize}
+        \item \textit{map}: Wendet Funktion auf jedes Element an
+        \item \textit{forEach}: Beendet Stream
+        \item \textit{filter}: Filtert Stream nach einer Bedingung 
+        \item \textit{toList}: Erzeugt Liste
+    \end{itemize}
+    \item sind idiomatisch außer:
+    \begin{itemize}
+        \item Collection wird verändert
+        \item zu große Labda-Ausdrücke: stattdessen Methode erstellen
+        \item Seiteneffekte außerhalb von forEach
+    \end{itemize}
+\end{itemize}
+\end{frame}

@@ -1,10 +1,18 @@
-\frametitle{Beispielaufgabe}
-\begin{enumerate}
-    \item Schreiben Sie eine Klasse \textit{Stack}, die einen \textit{int Stack} als Datenstruktur implementiert
-    \item implementieren Sie \textit{push}
-    \item implementieren Sie \textit{pop}
-    \item implementieren Sie \textit{peek}
-    \item implementieren Sie \textit{isEmpty}
-    \item implementieren Sie \textit{size}
-    \item ändern Sie ihre Klasse so, dass diese generisch funktioniert
-\end{enumerate}
+\frametitle{Streams}
+\begin{itemize}
+    \item Datenstrom
+    \item Lässt sich bei Collections durch Aufruf von \textit{stream()} erzeugen
+    \item verschiedene Operationen auf Streams:
+    \begin{itemize}
+        \item \textit{map}: Wendet Funktion auf jedes Element an
+        \item \textit{forEach}: Beendet Stream
+        \item \textit{filter}: Filtert Stream nach einer Bedingung
+        \item \textit{toList}: Erzeugt Liste
+    \end{itemize}
+    \item sind idiomatisch außer:
+    \begin{itemize}
+        \item Collection wird verändert
+        \item zu große Labda-Ausdrücke: stattdessen Methode erstellen
+        \item Seiteneffekte außerhalb von forEach
+    \end{itemize}
+\end{itemize}
