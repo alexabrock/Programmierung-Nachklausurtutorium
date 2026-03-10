@@ -27,7 +27,7 @@
 
 ## Klassen, Vererbung & Interfaces
 
-### Interfaces
+### Klassen & Interfaces
 - HK WS 25/26 – A7  
 - PK WS 25/26 – A9  
 - HK WS 24/25 – A7  
