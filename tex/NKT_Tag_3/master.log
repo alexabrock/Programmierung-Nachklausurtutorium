@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.28)  11 MAR 2026 00:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.28)  11 MAR 2026 00:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1720,7 +1720,7 @@ Package pdftex.def Info: fig/background_cd_2020.pdf  used on input line 54.
 \tf@snm=\write10
 \openout10 = `master.snm'.
 
-runsystem(latexminted cleantemp  --timestamp 20260311003627 EB0A191797624DD3A48FA681D3061212)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20260311004541 EB0A191797624DD3A48FA681D3061212)...disabled (restricted).
 
  (master.aux)
  ***********
@@ -1736,13 +1736,13 @@ Package logreq Info: Writing requests to 'master.run.xml'.
 Here is how much of TeX's memory you used:
  42953 strings out of 467871
  902318 string characters out of 5418376
- 1837382 words of memory out of 5000000
+ 1837160 words of memory out of 5000000
  70945 multiletter control sequences out of 15000+600000
  677535 words of font info for 94 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  128i,11n,123p,1976b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/doepz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/doepz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/doepz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/doepz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/doepz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/doepz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on master.pdf (29 pages, 388572 bytes).
+Output written on master.pdf (29 pages, 388451 bytes).
 PDF statistics:
  280 PDF objects out of 1000 (max. 8388607)
  64 named destinations out of 1000 (max. 500000)
