@@ -37,7 +37,7 @@
 
 ## Sortieren
 
-- PK 2 WS 24/25 – A2 → Insertion Sort  
+- PK 2 WS 24/25 – A3 → Insertion Sort  
 
 
 ---
