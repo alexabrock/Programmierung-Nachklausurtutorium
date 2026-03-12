@@ -52,7 +52,7 @@
 ---
 
 ## Bäume
-
+- HK WS 26/26 - A4 -> Argumentation, Eigenschaften 
 - PK WS 25/26 – A7 → Argumentation, Eigenschaften  
 - HK WS 24/25 – A5 → Implementierung  
 - DK WS 23/24 – A6 → Implementierung  
