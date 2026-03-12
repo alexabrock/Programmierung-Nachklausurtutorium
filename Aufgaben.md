@@ -15,6 +15,7 @@
 ### Package & Classpath
 - PK WS 25/26 – A8  
 - HK WS 24/25 – A3
+- Neu: NK 24/25 - A 1 b)
 
 ## Methoden & Logik
 
