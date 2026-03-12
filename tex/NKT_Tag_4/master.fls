@@ -427,13 +427,8 @@ INPUT C:\Users\doepz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\doepz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT .\appendixnumberbeamer.sty
 INPUT appendixnumberbeamer.sty
-<<<<<<< HEAD
-INPUT C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\diewi\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-=======
 INPUT C:\Users\doepz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\doepz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
->>>>>>> 493c31c800ae313de5db5165614cab33ab6adc30
 INPUT .\master.aux
 INPUT .\master.aux
 INPUT master.aux
