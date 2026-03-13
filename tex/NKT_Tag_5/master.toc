@@ -1,1 +1,4 @@
 \babel@toc {ngerman}{}\relax 
+\beamer@sectionintoc {1}{Classpath und Package-Pfad}{3}{0}{1}
+\beamer@sectionintoc {2}{Higher Order Functions und Streams}{7}{0}{2}
+\beamer@sectionintoc {3}{Heap-Aufgabe}{11}{0}{3}
