@@ -50,8 +50,8 @@ Nachklausur: <https://mediathek.hhu.de/watch/2d12d381-88da-49fd-b66d-edc05444722
 
 ## WS 22/23
 
-Probeklausur 1: <https://mediathek.hhu.de/watch/14247289-b704-481b-abca-e38a60614a1d>  
-Probeklausur 2: <https://mediathek.hhu.de/watch/6aae6e89-e03a-4587-9940-18a53032d9fc>  
+Probeklausur 1: <https://mediathek.hhu.de/watch/6aae6e89-e03a-4587-9940-18a53032d9fc>  
+Probeklausur 2: <https://mediathek.hhu.de/watch/14247289-b704-481b-abca-e38a60614a1d>  
 Hauptklausur: <https://mediathek.hhu.de/watch/a48a6678-6885-4f14-9e92-be7057b003c0>  
 Nachklausur: <https://mediathek.hhu.de/watch/51c38dcc-99d5-4a90-a858-893b82320f8c>
 
